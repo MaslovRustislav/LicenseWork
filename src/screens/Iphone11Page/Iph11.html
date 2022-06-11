@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="iph11.css" />
+    <link rel="shortcut icon" href="../Images/Icons/world-grid16.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rus - shop</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="menu">
+        <input
+          type="checkbox"
+          id="responsive-menu"
+          onclick="updatemenu()"
+        /><label></label>
+        <ul>
+          <li>
+            <a href="../mainPage.html">
+              <div className="navLogo"></div>
+            </a>
+          </li>
+          <li className="signInNav">
+            <a href="../SignInProfile/signIn.html"> Sign In </a>
+          </li>
+          <li className="logInNav">
+            <a href="../logInProfile/logIn.html"> Log In </a>
+          </li>
+
+          <li>
+            <a className="dropdown-arrow">Telefoane si gadget-uri</a>
+            <ul className="sub-menus">
+              <li>
+                <a href="../TelAGad/TelAGad.html">Telefoane</a>
+              </li>
+              <li>
+                <a href="http://">Casti/boxe/huse</a>
+              </li>
+              <li>
+                <a href="http://">Vehicule si dronuri</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a className="dropdown-arrow" href="http://">Televizoare</a>
+            <ul className="sub-menus">
+              <li>
+                <a href="http://">LG</a>
+              </li>
+              <li><a href="http://">Samsung</a></li>
+              <li><a href="http://">Philips</a></li>
+            </ul>
+          </li>
+          <li>
+            <a className="dropdown-arrow">Electrocasnice mici</a>
+            <ul className="sub-menus">
+              <li>
+                <a href="http://">Tehnica de bucatarie</a>
+              </li>
+              <li>
+                <a href="http://">Tehnica pentru casa</a>
+              </li>
+              <li>
+                <a href="http://">Tehnica pentru ograda</a>
+              </li>
+              <li>
+                <a href="http://">Vesela</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="../ContactUsProfile/contactUs.html">Contact Us</a></li>
+          <li>
+            <!-- <a href="../mainPage.html">
+                            <img src="../Images/world-grid64.png" width="75" height="75" alt="">
+                        </a> -->
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div style="text-align: center">
+      <h2>Iphone 11</h2>
+    </div>
+    <div className="container">
+      <div className="gallery">
+        <div className="mySlides">
+          <div className="numbertext">1 / 4</div>
+          <img src="../../Images/Phones/Iphone11red.jpg" style="width: 90%" />
+        </div>
+
+        <div className="mySlides">
+          <div className="numbertext">2 / 4</div>
+          <img
+            src="../../Images/Phones/Iphone11whitegrey.jpg"
+            style="width: 90%"
+          />
+        </div>
+
+        <div className="mySlides">
+          <div className="numbertext">3 / 4</div>
+          <img src="../../Images/Phones/Iphone11black.jpg" style="width: 90%" />
+        </div>
+
+        <div className="mySlides">
+          <div className="numbertext">4 / 4</div>
+          <img
+            src="../../Images/Phones/Iphone11LightBlue.jpg"
+            style="width: 90%"
+          />
+        </div>
+        <div className="prevNext">
+          <a className="prev" onclick="plusSlides(-1)">❮</a>
+          <a className="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <!-- 
+        <div className="caption-container">
+            <p id="caption"></p>
+        </div> -->
+
+        <div className="row">
+          <div className="column">
+            <img
+              className="demo cursor"
+              src="../../Images/Phones/Iphone11red.jpg"
+              style="width: 100%"
+              onclick="currentSlide(3) "
+              alt="Mountains and fjords "
+            />
+          </div>
+          <div className="column">
+            <img
+              className="demo cursor"
+              src="../../Images/Phones/Iphone11whitegrey.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Cinque Terre"
+            />
+          </div>
+          <div className="column">
+            <img
+              className="demo cursor"
+              src="../../Images/Phones/Iphone11black.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="The Woods"
+            />
+          </div>
+          <div className="column ">
+            <img
+              className="demo cursor "
+              src="../../Images/Phones/Iphone11LightBlue.jpg "
+              style="width: 100%"
+              onclick="currentSlide(4) "
+              alt="Northern Lights "
+            />
+          </div>
+        </div>
+      </div>
+      <div className="aboutProdContainer">
+        <!-- <div className="starContainer">
+                <div className="star" id="1.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                <div className="star" id="1.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                <div className="star" id="1.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                <div className="star" id="1.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                <div className="star" id="1.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+            </div> -->
+        <!-- <div className="priceAboutContainer"> -->
+        <div className="buyContainer">
+          <div className="buyBlock">
+            <h2>26500</h2>
+            <div>Cumpara</div>
+          </div>
+          <div className="buyCreditBlock">
+            <h2>2400</h2>
+            <div>In Rate</div>
+          </div>
+        </div>
+        <div className="descripton">
+          <table>
+            <thead>
+              <tr>
+                <td>Наименование</td>
+                <td>Описание</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Имя</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #2</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+              <tr>
+                <td>Имя #3</td>
+                <td>Характеристики</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <footer>
+      <div className="footerIconContainer ">
+        <h2>Alatura-te</h2>
+        <div>
+          <div className="footerIcon "></div>
+          <div className="footerIcon "></div>
+          <div className="footerIcon "></div>
+          <div className="footerIcon "></div>
+        </div>
+      </div>
+      <div className="dealsContainer ">
+        <h2>Cumparati cu comfort</h2>
+        <div>
+          <p>Promotii</p>
+          <p>Credite</p>
+          <p>Rate</p>
+          <p>Metode de plata</p>
+        </div>
+      </div>
+      <div className="offerContainer ">
+        <h2>Cu placere de la cumparatura</h2>
+        <div>
+          <p>Instalarea si conectare</p>
+          <p>reaparatii si servicii</p>
+          <p>Tehnica cu pret redus</p>
+          <p>Informatia pentru consumator</p>
+        </div>
+      </div>
+      <div className="aboutUsContainer ">
+        <h2>Aflati mai mult despre noi</h2>
+        <div>
+          <p>Despre companie</p>
+          <p>Despre Brand</p>
+          <p>Misiune si valori</p>
+        </div>
+      </div>
+    </footer>
+    <script src="iph11.js"></script>
+  </body>
+</html>

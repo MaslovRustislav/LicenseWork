@@ -1,0 +1,167 @@
+body {
+  /* background-image: url("../../Images/workTable.jpeg"); */
+  background-color: rgb(233, 233, 233);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* opacity: 0.9; */
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 700; */
+}
+
+header h2 {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: rgb(230, 228, 228);
+  }
+  .helpBlock a {
+    font-size: 14px;
+  }
+  .dataBlock {
+    width: 50%;
+    height: 350px;
+    padding-top: 80px;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(230, 228, 228);
+    font-size: 12px;
+  }
+  .helpBlock a {
+    font-size: 10px;
+  }
+  .dataBlock {
+    padding-top: 50px;
+    width: 70%;
+    height: 280px;
+    margin: auto;
+    margin-top: 20%;
+  }
+}
+
+.dataBlock {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 18px 17px 13px 2px rgba(0, 0, 0, 0.72);
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  overflow: scroll;
+  background: rgb(199, 198, 198);
+  background: linear-gradient(
+    45deg,
+    rgb(243, 193, 193) 0%,
+    rgb(241, 223, 223) 50%,
+    rgba(198, 198, 198, 1) 100%
+  );
+}
+
+.userData label {
+  margin-left: 10%;
+  font-weight: 700;
+}
+
+.userData input {
+  border: 1px solid gray;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  border-radius: 5px;
+  padding: 3% 0% 3% 5%;
+  width: 70%;
+}
+
+.helpBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.userData {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.saveDates {
+  width: 70%;
+  display: flex;
+  font-weight: 700;
+  margin: 0 auto 0 auto;
+  justify-content: space-between;
+}
+
+.saveDates .signInButton {
+  width: 70px;
+  height: 30px;
+  background: #000;
+  border: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.helpBlock a {
+  /* text-decoration: none; */
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5%;
+  color: rgb(24, 24, 202);
+}
+
+.helpBlock a:last-child {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.fooInvalid {
+  box-shadow: 0px 0px 10px 2px rgba(248, 0, 0, 0.72);
+  transition: 0.3s ease-in;
+}
+
+.fooValid {
+  box-shadow: 0px 0px 10px 2px rgba(1, 252, 1, 0.72);
+  transition: 0.3s ease-in;
+}
+
+.fooPInvalid {
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-size: 12px;
+  margin-left: 15%;
+}

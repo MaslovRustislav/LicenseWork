@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="TelAGad.css">
+    <link rel="shortcut icon" href="../../Images/Icons/world-grid16.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Rus - shop</title>
+</head>
+
+<body>
+    <!-- <header>
+        <div className="headerLogo">
+            <a href="../mainPage.html">
+                <img src="../Images/world-grid64.png" width="75" height="75" alt="">
+            </a>
+            <h2>RusShop</h2>
+        </div>
+        <div className="logInBlock">
+        <div className="signInNav">
+            <a href="SignInProfile/signIn.html">
+                <p>Sign In</p>
+            </a>
+        </div>
+        <div className="logInNav">
+            <a href="logInProfile/logIn.html">
+                <p>Log In</p>
+            </a>
+        </div>
+        </div>
+    </header> -->
+    <div className="container">
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+                <li>
+                    <a href="../mainPage.html">
+                        <div className="navLogo"></div>
+                    </a>
+                </li>
+                <li className="signInNav">
+                    <a href="../SignInProfile/signIn.html">
+                        Sign In
+                    </a>
+                </li>
+                <li className="logInNav">
+                    <a href="../logInProfile/logIn.html">
+                        Log In
+                    </a>
+                </li>
+
+                <li><a className='dropdown-arrow'>Telefoane si gadget-uri</a>
+                    <ul className='sub-menus'>
+                        <li>
+                            <a href='../projProfile/TelAGad/TelAGad.html'>Telefoane</a>
+                        </li>
+                        <li>
+                            <a href='http://'>Casti/boxe/huse</a>
+                        </li>
+                        <li>
+                            <a href='http://'>Vehicule si dronuri</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a className='dropdown-arrow' href='http://'>Televizoare</a>
+                    <ul className='sub-menus'>
+                        <li>
+                            <a href='http://'>LG</a>
+                        </li>
+                        <li><a href='http://'>Samsung</a></li>
+                        <li><a href='http://'>Philips</a></li>
+                    </ul>
+                </li>
+                <li><a className='dropdown-arrow'>Electrocasnice mici</a>
+                    <ul className='sub-menus'>
+                        <li>
+                            <a href='http://'>Tehnica de bucatarie</a>
+                        </li>
+                        <li>
+                            <a href='http://'>Tehnica pentru casa</a>
+                        </li>
+                        <li>
+                            <a href='http://'>Tehnica pentru ograda</a>
+                        </li>
+                        <li>
+                            <a href='http://'>Vesela</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href='http://'>Contact Us</a></li>
+                <li>
+                    <!-- <a href="../mainPage.html">
+                        <img src="../Images/world-grid64.png" width="75" height="75" alt="">
+                    </a> -->
+                </li>
+
+            </ul>
+        </nav>
+        <div className="prodContainer">
+
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/Iphone.jpg" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/apple.png" width="24px " height="24px" alt="apple">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Iphone 11 </p>
+                    <div className="starContainer">
+                        <div className="star" id="1.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="1.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="1.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="1.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="1.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">26500</p>
+                        <div id="B1" className="buyButton" onclick="boughtFlag(id)">
+                            <a href="../Iphone11Page/Iph11.html">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/samsungPhone.png" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/samsung.png" width="50px" height="50px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Samsung S21 ultra</p>
+                    <div className="starContainer">
+                        <div className="star" id="2.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="2.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="2.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="2.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="2.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">15000</p>
+                        <div id="B2" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/huaweiP.jpg" width="65px" height="100px" style="margin-bottom: 10px;padding-right: 10px" alt="">
+                    <img src="../../Images/Icons/huawei.png" width="24px" height="24px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Huawei p40 pro</p>
+                    <div className="starContainer">
+                        <div className="star" id="3.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="3.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="3.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="3.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="3.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">10000</p>
+                        <div id="B3" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/XiaomiP.jpg" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/xiaomi.png" width="24px" height="24px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Xiaomi mi 10 pro</p>
+                    <div className="starContainer">
+                        <div className="star" id="4.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="4.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="4.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="4.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="4.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">6700</p>
+                        <div id="B4" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/onePlusP.png" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/onePlus.jpg" width="24px" height="24px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">One plus 6</p>
+                    <div className="starContainer">
+                        <div className="star" id="5.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="5.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="5.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="5.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="5.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">9000</p>
+                        <div id="B5" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/oppoP.jpg" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/oppo.png" width="50px" height="50px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Oppo x</p>
+                    <div className="starContainer">
+                        <div className="star" id="6.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="6.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="6.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="6.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="6.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">7800</p>
+                        <div id="B6" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/samsungS10.jpg" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/samsung.png" width="50px" height="50px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Samsung S10e</p>
+                    <div className="starContainer">
+                        <div className="star" id="7.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="7.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="7.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="7.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="7.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">12000</p>
+                        <div id="B7" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/IphoneX.png" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icon/apple.png" width="24px " height="24px" alt="apple">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">IphoneX</p>
+                    <div className="starContainer">
+                        <div className="star" id="8.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="8.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="8.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="8.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="8.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">9500</p>
+                        <div id="B8" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/Iphone5s.jpg" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icon/apple.png" width="24px " height="24px" alt="apple">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Iphone 5s</p>
+
+                    <div className="starContainer">
+                        <div className="star" id="9.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="9.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="9.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="9.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="9.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">4000</p>
+                        <div id="B9" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/Iphone 8.png" width="100px" height="100px" style="margin-bottom: 10px" alt="">
+                    <img src="../../Images/Icons/apple.png" width="24px " height="24px" alt="apple">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Iphone 8</p>
+                    <div className="starContainer">
+                        <div className="star" id="10.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="10.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="10.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="10.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="10.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">7000</p>
+                        <div id="B10" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/redmi9.png" width="100px" height="100px" style="margin-bottom: 10px" alt="">
+                    <img src="../../Images/Icons/xiaomi.png" width="24px" height="24px" alt="">
+
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Redmi 9</p>
+                    <div className="starContainer">
+                        <div className="star" id="11.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="11.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="11.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="11.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="11.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">3000</p>
+                        <div id="B11" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="prodBlock">
+                <div className="firstProdColumn">
+                    <img src="../../Images/Phones/samsungs8.png" width="100px" height="100px" alt="">
+                    <img src="../../Images/Icons/samsung.png" width="50px" height="50px" alt="">
+                </div>
+                <div className="secondProdColumn">
+                    <p className="prodName">Samsung s8</p>
+                    <div className="starContainer">
+                        <div className="star" id="12.1" title="1" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="12.2" title="2" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="12.3" title="3" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="12.4" title="4" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                        <div className="star" id="12.5" title="5" onmouseover="changeBgImage(id,title)" onmouseout="restoreBgImage(id,title)" onclick="setBgImage(id,title)"></div>
+                    </div>
+                    <div className="brandBuy">
+                        <p className="price">Price</p>
+                        <div id="B12" className="buyButton" onclick="boughtFlag(id)">
+                            <p>Buy</p>
+                        </div>
+                    </div>
+                    <div className="description">
+                        <h4>Description</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab placeat repudiandae expedita nemo molestias velit, ipsum cum dolores dolore numquam eius debitis quidem dolor inventore perferendis provident porro qui?</p>
+                    </div>
+                </div>
+            </div>
+            <div className="brandBuy">
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div className="footerIconContainer">
+            <h2>Alatura-te</h2>
+            <div>
+                <div className="footerIcon"></div>
+                <div className="footerIcon"></div>
+                <div className="footerIcon"></div>
+                <div className="footerIcon"></div>
+            </div>
+        </div>
+        <div className="dealsContainer">
+            <h2>Cumparati cu comfort</h2>
+            <div>
+                <p>Promotii</p>
+                <p>Credite</p>
+                <p>Rate</p>
+                <p>Metode de plata</p>
+            </div>
+        </div>
+        <div className="offerContainer">
+            <h2>Cu placere de la cumparatura</h2>
+            <div>
+                <p>Instalarea si conectare</p>
+                <p>reaparatii si servicii</p>
+                <p>Tehnica cu pret redus</p>
+                <p>Informatia pentru consumator</p>
+            </div>
+        </div>
+        <div className="aboutUsContainer">
+            <h2>Aflati mai mult despre noi</h2>
+            <div>
+                <p>Despre companie</p>
+                <p>Despre Brand</p>
+                <p>Misiune si valori</p>
+            </div>
+        </div>
+    </footer>
+    <script src="TelAGad.js"></script>
+</body>
+
+</html>

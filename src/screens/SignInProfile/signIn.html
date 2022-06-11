@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="signIn.css" />
+    <link rel="shortcut icon" href="../../Images/world-grid16.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rus - Shop</title>
+  </head>
+
+  <body>
+    <div className="container">
+      <header>
+        <a href="../mainPage.html">
+          <img
+            src="../../Images/Icons/world-grid64.png"
+            width="75"
+            height="75"
+            alt=""
+          />
+        </a>
+        <h2>RusShop</h2>
+      </header>
+      <form action="">
+        <div className="dataBlock">
+          <div className="userData">
+            <label for="email">Username</label>
+            <input
+              type="email"
+              onchange="checkEmail(this.value)"
+              id="email"
+              placeholder="E-mail"
+            />
+            <div id="newE"></div>
+            <label for="pass">Password</label>
+            <input
+              type="password"
+              onchange="checkPass(this.value)"
+              id="pass"
+              placeholder="Password"
+            />
+            <div id="newP"></div>
+            <label for="repPass">Repeat password</label>
+            <input
+              type="password"
+              onchange="checkAgainPass(this.value)"
+              id="repPass"
+              placeholder="Repeat password"
+            />
+            <div id="newRP"></div>
+            <label for="tel">Telephone</label>
+            <input
+              type="tel"
+              onchange="checkTel(this.value)"
+              id="tel"
+              placeholder="Telephone number"
+            />
+            <div id="newT"></div>
+          </div>
+          <div className="saveDates">
+            <div>
+              <input type="checkbox" name="remMe" id="" /><label for="remMe"
+                >Remember me</label
+              >
+            </div>
+            <a href="">
+              <button className="signInButton" type="submit">Sign in</button>
+            </a>
+          </div>
+          <div className="helpBlock">
+            <a href="../logInProfile/logIn.html">log In</a>
+            <a href="#">signIn via Facebook</a>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="signIn.js"></script>
+  </body>
+</html>

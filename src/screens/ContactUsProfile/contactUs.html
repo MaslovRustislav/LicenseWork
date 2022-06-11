@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="contactUs.css" />
+    <link rel="shortcut icon" href="../../Images/Icons/world-grid16.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rus - shop</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="menu">
+        <input
+          type="checkbox"
+          id="responsive-menu"
+          onclick="updatemenu()"
+        /><label></label>
+        <ul>
+          <li>
+            <a href="../mainPage.html">
+              <div className="navLogo"></div>
+            </a>
+          </li>
+          <li className="signInNav">
+            <a href="../SignInProfile/signIn.html"> Sign In </a>
+          </li>
+          <li className="logInNav">
+            <a href="../logInProfile/logIn.html"> Log In </a>
+          </li>
+
+          <li>
+            <a className="dropdown-arrow">Telefoane si gadget-uri</a>
+            <ul className="sub-menus">
+              <li>
+                <a href="../TelAGad/TelAGad.html">Telefoane</a>
+              </li>
+              <li>
+                <a href="http://">Casti/boxe/huse</a>
+              </li>
+              <li>
+                <a href="http://">Vehicule si dronuri</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a className="dropdown-arrow" href="http://">Televizoare</a>
+            <ul className="sub-menus">
+              <li>
+                <a href="http://">LG</a>
+              </li>
+              <li><a href="http://">Samsung</a></li>
+              <li><a href="http://">Philips</a></li>
+            </ul>
+          </li>
+          <li>
+            <a className="dropdown-arrow">Electrocasnice mici</a>
+            <ul className="sub-menus">
+              <li>
+                <a href="http://">Tehnica de bucatarie</a>
+              </li>
+              <li>
+                <a href="http://">Tehnica pentru casa</a>
+              </li>
+              <li>
+                <a href="http://">Tehnica pentru ograda</a>
+              </li>
+              <li>
+                <a href="http://">Vesela</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+          <li>
+            <!-- <a href="../mainPage.html">
+                            <img src="../Images/world-grid64.png" width="75" height="75" alt="">
+                        </a> -->
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div className="container">
+      <form action="">
+        <div className="row">
+          <h1>Contact us</h1>
+        </div>
+        <div className="row">
+          <h4 style="text-align: center">We'd love to hear from you!</h4>
+        </div>
+        <div className="row input-container">
+          <div className="col-xs-12">
+            <div className="styled-input wide">
+              <input type="text" required />
+              <label>Name</label>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <div className="styled-input">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            <div className="styled-input" style="float: right">
+              <input type="text" required />
+              <label>Phone Number</label>
+            </div>
+          </div>
+          <div className="col-xs-12">
+            <div className="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div className="col-xs-12">
+            <button type="submit" className="btn-lrg submit-btn">
+              Send Message
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div className="footerIconContainer ">
+        <h2>Alatura-te</h2>
+        <div>
+          <div className="footerIcon "></div>
+          <div className="footerIcon "></div>
+          <div className="footerIcon "></div>
+          <div className="footerIcon "></div>
+        </div>
+      </div>
+      <div className="dealsContainer ">
+        <h2>Cumparati cu comfort</h2>
+        <div>
+          <p>Promotii</p>
+          <p>Credite</p>
+          <p>Rate</p>
+          <p>Metode de plata</p>
+        </div>
+      </div>
+      <div className="offerContainer ">
+        <h2>Cu placere de la cumparatura</h2>
+        <div>
+          <p>Instalarea si conectare</p>
+          <p>reaparatii si servicii</p>
+          <p>Tehnica cu pret redus</p>
+          <p>Informatia pentru consumator</p>
+        </div>
+      </div>
+      <div className="aboutUsContainer ">
+        <h2>Aflati mai mult despre noi</h2>
+        <div>
+          <p>Despre companie</p>
+          <p>Despre Brand</p>
+          <p>Misiune si valori</p>
+        </div>
+      </div>
+    </footer>
+    <script src="iph11.js"></script>
+  </body>
+</html>
