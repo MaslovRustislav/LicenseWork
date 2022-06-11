@@ -1,6 +1,6 @@
 // import { render } from '@testing-library/react'
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const Header = () => {
@@ -15,9 +15,9 @@ const Header = () => {
 				<label></label>
 				<ul>
 					<li>
-						{/* <Link to='/'> */}
+						<Link to='/'>
 						<div className='navLogo'></div>
-						{/* </Link> */}
+						</Link>
 					</li>
 					<li className='signInNav'>
 						<a href='SignInProfile/signIn.html'>Sign In</a>

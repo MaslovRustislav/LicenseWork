@@ -17,6 +17,7 @@ const Landing = () => {
 						battery={element.battery}
 						price={element.price}
 						discount={element.discount}
+						id={element.id}
 					/>
 				);
 			})}

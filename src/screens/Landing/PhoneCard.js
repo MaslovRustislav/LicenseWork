@@ -6,6 +6,8 @@ import {
 	FiSmartphone,
 } from 'react-icons/fi';
 import { BiDollarCircle } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
+
 import { MdMemory } from 'react-icons/md';
 const PhoneCard = ({
 	name,
@@ -16,9 +18,11 @@ const PhoneCard = ({
 	battery,
 	price,
 	discount,
+	id
 }) => {
+	console.log('image is sending as props or')
 	return (
-		<div
+		<Link to={`/${id}`}
 			className={`border-black transition-all ${
 				discount
 					? 'hover:border-green-500 hover:shadow-green-600'
@@ -66,7 +70,7 @@ const PhoneCard = ({
 					</button>
 				</div>
 			</div>
-		</div>
+		</Link>
 	);
 };
 export default PhoneCard;

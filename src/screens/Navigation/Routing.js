@@ -1,21 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Landing from '../Landing/index';
+import DevicePage from '../DevicePage/index'
 import Header from './Header';
 import Footer from './Footer';
+// import ScrollToTop from '../../common/scrollToTop';
 const Routing = () => {
 	return (
-		// <div className='w-full min-h-screen bg-b;ac'>
-			// {console.log('Routing js')}
+		 <div> 
 			<Header />
-
 			<Routes>
-				<Route path='/'>
-					<Landing />
-				</Route>
+				{/* <ScrollToTop> */}
+				<Route path='/' element={<Landing />}/>
+				<Route path='/:id' element={<DevicePage />}/>
+				{/* </ScrollToTop> */}
 			</Routes>
 			<Footer />
-		// </div>
+		 </div> 
 	);
 };
 export default Routing;

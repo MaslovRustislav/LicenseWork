@@ -7,6 +7,117 @@ export const phoneData = [
 		ram: '4GB RAM',
 		battery: '2815 mAh',
 		price: '15 999',
+		id:'1',
+		count:'8',
+		stats:[
+			{
+				name:'Capacity',
+				data:['64GB','128GB']
+			},
+		
+		{
+			name:'Display',
+			data:['Liquid Retina HD display','6.1‑inch (diagonal) all-screen LCD Multi-Touch display with IPS technology','1792‑by‑828‑pixel resolution at 326 ppi','1400:1 contrast ratio (typical)','True Tone display']
+		},
+		{
+			name:'Chip',
+			data:['A13 Bionic chip','6-core CPU with 2 performance and 4 efficiency cores','4-core GPU','8-core Neural Engine'],
+		},
+		{
+			name:'Camera',
+			data:['Dual 12MP Wide and Ultra Wide cameras','Wide: ƒ/1.8 aperture	','2x optical zoom out','Digital zoom up to 5x'],
+		},
+		{
+			name:'Video Recording',
+			data:['4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps','1080p HD video recording at 25 fps, 30 fps, or 60 fps','720p HD video recording at 30 fps'],
+		},
+		{
+			name:'Face ID',
+			data:['Enabled by TrueDepth camera for facial recognition'],
+		},
+
+
+		],
+		antutuStats:[
+			{
+				name:'Overall Performance',
+				data:[
+					{
+					statName:'GroupBest',
+					percents:'98%',
+					statNumber:'994.933'
+				},
+				{
+					statName:'This Phone',
+					percents:'65%',
+					statNumber:'621.879'
+				},
+				{
+					statName:'Group* Avg',
+					percents:'83%',
+					statNumber:'594.774'
+				},
+				{
+					statName:'Worst',
+					percents:'20%',
+					statNumber:'116.374'
+				},
+
+				]
+			},
+			{
+				name:'Bootup Time',
+				data:[
+					{
+					statName:'GroupBest',
+					percents:'90%',
+					statNumber:'9.0'
+				},
+				{
+					statName:'This Phone',
+					percents:'70%',
+					statNumber:'13.0'
+				},
+				{
+					statName:'Group* Avg',
+					percents:'96%',
+					statNumber:'19.8'
+				},
+				{
+					statName:'Worst',
+					percents:'2%',
+					statNumber:'34.0'
+				},
+
+				]
+			},
+			{
+				name:'CPU',
+				data:[
+					{
+					statName:'GroupBest',
+					percents:'93%',
+					statNumber:'253.944'
+				},
+				{
+					statName:'This Phone',
+					percents:'80%',
+					statNumber:'175.099'
+				},
+				{
+					statName:'Group* Avg',
+					percents:'79%',
+					statNumber:'169.158'
+				},
+				{
+					statName:'Worst',
+					percents:'30%',
+					statNumber:'58.924'
+				},
+
+				]
+			},
+		],
 	},
 	{
 		name: 'Xiaomi 10S',
@@ -16,6 +127,7 @@ export const phoneData = [
 		ram: '8/12GB RAM',
 		battery: '4780 mAh',
 		price: '11 499',
+		id:'2',
 	},
 	{
 		name: 'Iphone 8',
@@ -25,6 +137,8 @@ export const phoneData = [
 		ram: '2GB RAM',
 		battery: '1821 mAh',
 		price: '10 599',
+		id:'3',
+
 	},
 	{
 		name: 'Iphone 5s',
@@ -34,6 +148,8 @@ export const phoneData = [
 		ram: '1GB RAM',
 		battery: '1560 mAh',
 		price: '5 999',
+		id:'4',
+
 	},
 	{
 		name: 'Iphone X',
@@ -44,6 +160,8 @@ export const phoneData = [
 		discount: '9 000',
 		battery: '2176 mAh',
 		price: '9 499',
+		id:'5',
+
 	},
 	{
 		name: 'One Plus 5t',
@@ -53,6 +171,7 @@ export const phoneData = [
 		ram: '6/8GB RAM',
 		battery: '3300 mAh',
 		price: '7 999',
+		id:'6',
 	},
 	{
 		name: 'Redmi9',
@@ -62,6 +181,7 @@ export const phoneData = [
 		ram: '4/6GB RAM',
 		battery: '6000 mAh',
 		price: '3 100',
+		id:'7',
 	},
 	{
 		name: 'Samsung S21',
@@ -72,6 +192,7 @@ export const phoneData = [
 		battery: '4000 mAh',
 		discount: '16 000',
 		price: '18 999',
+		id:'8',
 	},
 	{
 		name: 'Samsung S8',
@@ -81,6 +202,7 @@ export const phoneData = [
 		ram: '4GB RAM',
 		battery: '3000 mAh',
 		price: '15 399',
+		id:'9',
 	},
 	{
 		name: 'Samsung S10',
@@ -90,6 +212,7 @@ export const phoneData = [
 		ram: '6/8GB RAM',
 		battery: '3400 mAh',
 		price: '17 899',
+		id:'10',
 	},
 	{
 		name: 'Xiaomi P10',
@@ -100,5 +223,6 @@ export const phoneData = [
 		discount: '10 599',
 		battery: '5000mAh',
 		price: '12 000',
+		id:'11',
 	},
 ];
