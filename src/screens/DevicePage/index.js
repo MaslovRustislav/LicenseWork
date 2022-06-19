@@ -21,7 +21,7 @@ const DevicePage = () => {
 	if(curDeviceData.stats)
 	return (
 		<div className='w-11/12 flex-col mx-auto flex justify-center items-center h-1/2 flex-grow min-h-screen'>
-			<div className=' w-8/12 flex-col mt-6 flex justify-center content-center align-middle'>
+			<div className=' w-full flex-col mt-6 flex justify-center content-center align-middle'>
 			<h1 className='text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-cyan-300 to-sky-600'>{curDeviceData.name}</h1>
 				<div className='w-full flex justify-between'>
 					<div className='flex'>
@@ -33,8 +33,8 @@ const DevicePage = () => {
 		</div>
 		<div className=' w-full'>
 			<div id="containerForModelling" className=' h-600 mt-8 border-2 overflow-hidden '><DeviceViewer/></div>
-		<div className=' flex'>
-			<div className=' mt-8 border-3 mx-auto order-2'>
+		<div className='flex-col flex md:flex-row  mb-5 '>
+			<div className=' mt-8 md:ml-5 w-full border-3 mx-auto order-1'>
 				
 
 				<div className='w-full  sm:flex  sm:space-x-4'>
@@ -78,7 +78,7 @@ const DevicePage = () => {
 				</div>
 				
 			</div>
-			<div className='w-1/2 flex flex-col order-1'>
+			<div className='md:w-1/2 md:ml-5 flex flex-col order-2'>
 			<div className='space-y-2 mt-5 text-black border-b-2 pb-2 border-sky-400 rounded-xl'>
 						<h1 className='text-3xl text-left  '>How to take credit </h1>
 						<p className='  ml-5 text-left'>We’ve made it faster and safer than ever to buy mobile top-up. 

@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				Rampart: ["Roboto", "sans-serif"],
+				Voltaire: ['Voltaire', 'sans-serif'],
 			   },
 			backgroundImage: {
 				Iphone11Green: "url('/src/assets/Images/Phones/Iphone11.jpg')",
