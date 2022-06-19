@@ -4,9 +4,9 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				Rampart: ["Roboto", "sans-serif"],
+				Rampart: ['Roboto', 'sans-serif'],
 				Voltaire: ['Voltaire', 'sans-serif'],
-			   },
+			},
 			backgroundImage: {
 				Iphone11Green: "url('/src/assets/Images/Phones/Iphone11.jpg')",
 				Xiaomi10S: "url('/src/assets/Images/Phones/Xiaomi10.webp')",

@@ -49,6 +49,7 @@ body {
 }
 
 #menu a {
+  cursor: pointer;
   display: block;
   line-height: 45px;
   padding: 0 14px;
@@ -67,10 +68,6 @@ body {
   background: #000;
 }
 
-#menu li a:hover {
-  color: #0099cc;
-  background: #f2f2f2;
-}
 
 #menu input {
   display: none;

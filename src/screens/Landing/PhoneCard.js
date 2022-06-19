@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fi';
 import { BiDollarCircle } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-
+import './PhoneCard.css';
 import { MdMemory } from 'react-icons/md';
 const PhoneCard = ({
 	name,
@@ -18,16 +18,20 @@ const PhoneCard = ({
 	battery,
 	price,
 	discount,
-	id
+	id,
+	fromLading,
 }) => {
-	console.log('image is sending as props or')
+	console.log('image is sending as props or');
 	return (
-		<Link to={`/${id}`}
+		<Link
+			to={`/${id}`}
 			className={`border-black transition-all ${
 				discount
 					? 'hover:border-green-500 hover:shadow-green-600'
 					: 'hover:border-blue-500 hover:shadow-cyan-600'
-			} ease-in-out  delay-50 hover:shadow-lg items-center py-5 border-2 flex w-80 my-5 mx-2 rounded-xl`}>
+			} ease-in-out  delay-50 hover:shadow-lg items-center py-5 border-2 flex ${
+				fromLading ? 'w-600' : 'w-96'
+			}  my-5 mx-2 rounded-xl`}>
 			<div
 				className={`w-1/2 imageContainer h-full bg-contain bg-no-repeat bg-center space-y-2 ${image}  `}></div>
 			<div className='w-1/2 space-y-2 '>

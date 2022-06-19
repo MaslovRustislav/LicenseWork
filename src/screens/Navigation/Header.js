@@ -16,7 +16,7 @@ const Header = () => {
 				<ul>
 					<li>
 						<Link to='/'>
-						<div className='navLogo'></div>
+							<div className='navLogo'></div>
 						</Link>
 					</li>
 					<li className='signInNav'>
@@ -30,7 +30,7 @@ const Header = () => {
 						<a className='dropdown-arrow'>Telefoane si gadget-uri</a>
 						<ul className='sub-menus'>
 							<li>
-								<a href='../ProfileScreen/TelAGad/TelAGad.html'>Telefoane</a>
+								<Link to='/Phones'>Phones</Link>
 							</li>
 							<li>
 								<a href='http://'>Casti/boxe/huse</a>
