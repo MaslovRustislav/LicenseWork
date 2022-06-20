@@ -9,6 +9,7 @@ export const phoneData = [
 		price: '15 999',
 		id: '1',
 		count: '8',
+		model:'Iphone11.glb',
 		stats: [
 			{
 				name: 'Capacity',
@@ -143,6 +144,8 @@ export const phoneData = [
 		battery: '4780 mAh',
 		price: '11 499',
 		id: '2',
+		count: '13',
+		model:'Xiaomi10.glb',
 		stats: [
 			{
 				name: 'Capacity',
@@ -269,6 +272,131 @@ export const phoneData = [
 		battery: '1821 mAh',
 		price: '10 599',
 		id: '3',
+		model:'Iphone8.glb',
+		count:'5',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '256GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'Retina IPS LCD, 625 nits (typ)',
+					'4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)	',
+					'1750 x 1334 pixels, 16:9 ratio (~326 ppi density)',
+					'Ion-strengthened glass, oleophobic coating',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Apple A11 Bionic SoC',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					'2GB of RAM',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'12MP camera with F/1.8 lens',
+					'optical image stabilization',
+					' quad-LED flash with slow sync',
+					'phase detection auto focus',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					' 2160p@60/30fps',
+					'1080p@30/60/120/240fps video recording',
+				],
+			},
+			{
+				name: 'Battery',
+				data: [' 1,821mAh battery, wireless charging (Qi compatible)'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '88%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Phone',
+						percents: '72%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '80%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '82%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '86%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '65%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '6%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '876.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '80%',
+						statNumber: '906.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '104.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '78.924',
+					},
+				],
+			},
+		],
 	},
 	{
 		name: 'Iphone 5s',

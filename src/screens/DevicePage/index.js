@@ -11,6 +11,7 @@ const DevicePage = () => {
 		phoneData.map((element) => {
 			if (element.id === id) {
 				setCurDeviceData(element);
+				
 			}
 		});
 	});
@@ -38,7 +39,7 @@ const DevicePage = () => {
 					<div
 						id='containerForModelling'
 						className=' h-600 mt-8 border-2 overflow-hidden '>
-						<DeviceViewer />
+						<DeviceViewer  model={curDeviceData.model}/>
 					</div>
 					<div className='flex-col flex md:flex-row  mb-5 '>
 						<div className=' mt-8 md:ml-5 w-full border-3 mx-auto order-1'>
@@ -71,7 +72,6 @@ const DevicePage = () => {
 												</h1>
 												{/* {console.log(element.data)} */}
 												{element.data.map((elementForData, index) => {
-													console.log('index', index);
 													return (
 														<div className='space-y-1'>
 															<p className='text-left ml-2 text-xl text-gray-900'>

@@ -7,12 +7,15 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 // import  {useNavigate } from 'react-router-dom';
 
 class DeviceViewer extends Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
+		// const pathToModels = '../../assets/Models/'
 		this.containerRef = React.createRef();
-		this.Iphone11 = require('../../assets/Models/Iphone11.glb');
+		if(props.model)
+		// this.model = require(pathToModels+ props.model);
+		this.model = require('../../assets/Models/'+props.model);
 		const imageBg = require('../../assets/Images/backgroundFor3d1.jpg');
-
+		console.log('propses',props)
 		this.camera = new THREE.PerspectiveCamera(
 			50,
 			window.innerWidth / window.innerHeight,
@@ -39,6 +42,7 @@ class DeviceViewer extends Component {
 		this.scene.add(light);
 
 		window.addEventListener('resize', this.resize.bind(this));
+		if(this.model)
 		this.loadModel(this.scene);
 	}
 	loadModel(room) {
@@ -53,11 +57,10 @@ class DeviceViewer extends Component {
 		);
 		loader.setDRACOLoader(draco);
 		loader.load(
-			this.Iphone11,
+			this.model,
 			function (gltf) {
 				room.add(gltf.scene);
 				gltf.scene.children[0].position.set(0, -0.7, 0);
-				gltf.scene.children[0].scale.set(8, 8, 8);
 				self.model = gltf.scene;
 
 				if (gltf?.animations.length) {
