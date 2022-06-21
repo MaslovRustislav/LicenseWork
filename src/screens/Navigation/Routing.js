@@ -5,6 +5,8 @@ import DevicePage from '../DevicePage/index';
 import DeviceContainer from '../DeviceContainer/index';
 import Header from './Header';
 import Footer from './Footer';
+import SignIn from '../SignInProfile/signIn';
+import SignUp from '../SignUp/signUp';
 // import ScrollToTop from '../../common/scrollToTop';
 const Routing = () => {
 	return (
@@ -16,6 +18,8 @@ const Routing = () => {
 				<Route path='/' element={<Landing />} />
 				<Route path='/Phones' element={<DeviceContainer />} />
 				<Route path='/:id' element={<DevicePage />} />
+				<Route path='signIn' element={<SignIn/>} />
+				<Route path='signUp' element={<SignUp/>} />
 				{/* </ScrollToTop> */}
 			</Routes>
 			<Footer />

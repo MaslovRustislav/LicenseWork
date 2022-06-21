@@ -3,7 +3,7 @@ import {React,useEffect} from "react";
 
 
 
-export default function SignIn() {
+export default function SignUp() {
   const checkEmail = () => {
     let tag = document.createElement("p");
     let text = document.createTextNode(
@@ -111,9 +111,36 @@ export default function SignIn() {
              
             </p>
           </div>
-          <form className="mt-8 space-y-6" >
-            <input type="hidden" name="remember" defaultValue="true" />
-            <div className="rounded-md shadow-sm space-y-3 ">
+          <form className="mt-8 space-y-3" >
+              <div className="space-y-3  shadow-sm ">
+          <div >
+                  <label htmlFor="firstname" className="sr-only">
+                    Username
+                  </label>
+                  <input
+                    id="firstname"
+                    name="firstname"
+                    type="firstname"
+                    required
+                    // onChange={changeHandler}
+                    className="appearance-none  relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder={'Username'}
+                  />
+                </div>
+                <div>
+                  <label htmlFor="lastname" className="sr-only">
+                    Lastname
+                  </label>
+                  <input
+                    id="lastname"
+                    name="lastname"
+                    type="lastname"
+                    required
+                    // onChange={changeHandler}
+                    className="appearance-none  relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder={'Lastname '}
+                  />
+                </div>
               <div>
                 <label htmlFor="email-address" className="sr-only">
                   Email address
@@ -142,6 +169,23 @@ export default function SignIn() {
                   placeholder="Password"
                 />
               </div>
+              <div>
+                  <label htmlFor="password" className="sr-only">
+                        Repeat Password
+                  </label>
+                  <input
+                    id="secondPass"
+                    name="secondPass"
+                    type="password"
+                    autoComplete="current-password"
+                    required
+                    // onChange={changeHandler}
+                    className="appearance-none  relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                    placeholder={
+                            'Repeat Password '
+                    }
+                  />
+                </div>
             </div>
 
             <div className="flex items-center justify-between">

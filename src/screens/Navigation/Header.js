@@ -13,19 +13,15 @@ const Header = () => {
 					id='responsive-menu'
 					onclick='updatemenu()'></input>
 				<label></label>
-				<ul>
+				<ul>					
+				<div className='flex justify-between '>
+					<div>
 					<li>
 						<Link to='/'>
 							<div className='navLogo'></div>
 						</Link>
 					</li>
-					<li className='signInNav'>
-						<a href='SignInProfile/signIn.html'>Sign In</a>
-					</li>
-					<li className='logInNav'>
-						<a href='logInProfile/logIn.html'>Log In</a>
-					</li>
-
+					
 					<li>
 						<a className='dropdown-arrow'>Telefoane si gadget-uri</a>
 						<ul className='sub-menus'>
@@ -78,6 +74,22 @@ const Header = () => {
 							Contact Us
 						</a>
 					</li>
+					</div>
+					<div>
+					<li className='signInNav'>
+					<Link to='/signUp'>
+						<a href='SignInProfile/signIn.html'>Sign In</a>
+						</Link>
+					</li>
+					<li className='logInNav'>
+					<Link to='/signIn'>
+
+						<a href='logInProfile/logIn.html'>Log In</a>
+						</Link>
+
+					</li>
+					</div>
+					</div>
 				</ul>
 			</nav>
 		</div>
