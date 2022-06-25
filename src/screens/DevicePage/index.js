@@ -3,6 +3,10 @@ import { useParams } from 'react-router-dom';
 import { phoneData } from '../../assets/mockData';
 import './index.css';
 import DeviceViewer from './3DModelViewer';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+import Modal from '../../common/modal'
+
 const DevicePage = () => {
 	const { id } = useParams();
 	const [curDeviceData, setCurDeviceData] = useState({});
@@ -18,6 +22,7 @@ const DevicePage = () => {
 	if (curDeviceData.stats)
 		return (
 			<div className='w-11/12 flex-col mx-auto flex justify-center items-center h-1/2 flex-grow min-h-screen'>
+				
 				<div className=' w-full flex-col mt-6 flex justify-center content-center align-middle'>
 					<h1 className='text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-cyan-300 to-sky-600'>
 						{curDeviceData.name}
@@ -150,6 +155,12 @@ const DevicePage = () => {
 							</div>
 						</div>
 					</div>
+						<div className='w-full'> 
+						<Popup trigger={<button className=' bg-gradient-to-r from-green-300 to-cyan-400 px-10 text-xl font-rampart text-white  m-5 rounded-lg py-1 '>Buy</button>} >
+    <div><Modal/></div>
+  </Popup>
+
+						</div>
 				</div>
 			</div>
 		);

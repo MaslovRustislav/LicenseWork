@@ -21,7 +21,6 @@ const PhoneCard = ({
 	id,
 	fromLading,
 }) => {
-	console.log('image is sending as props or');
 	return (
 		<Link
 			to={`/${id}`}

@@ -76,7 +76,6 @@ a {
   display: flex;
   flex-direction: column;
   align-content: center;
-  overflow: scroll;
   background: rgb(199, 198, 198);
   background: linear-gradient(
     45deg,

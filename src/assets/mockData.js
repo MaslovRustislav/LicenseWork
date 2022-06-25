@@ -406,6 +406,131 @@ export const phoneData = [
 		ram: '1GB RAM',
 		battery: '1560 mAh',
 		price: '5 999',
+		count:'2',
+		model:'Iphone5.glb',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['32GB', '64GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'Retina IPS LCD, 625 nits (typ)',
+					'4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)	',
+					'1750 x 1334 pixels, 16:9 ratio (~326 ppi density)',
+					'Ion-strengthened glass, oleophobic coating',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Apple A11 Bionic SoC',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					'2GB of RAM',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'12MP camera with F/1.8 lens',
+					'optical image stabilization',
+					' quad-LED flash with slow sync',
+					'phase detection auto focus',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					' 2160p@60/30fps',
+					'1080p@30/60/120/240fps video recording',
+				],
+			},
+			{
+				name: 'Battery',
+				data: [' 1,821mAh battery, wireless charging (Qi compatible)'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '37%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Phone',
+						percents: '64%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '61%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '78%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '97%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '65%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '87%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '10%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '876.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '80%',
+						statNumber: '906.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '104.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '78.924',
+					},
+				],
+			},
+		],
 		id: '4',
 	},
 	{
@@ -417,18 +542,245 @@ export const phoneData = [
 		discount: '9 000',
 		battery: '2176 mAh',
 		price: '9 499',
+		count:'8',
+		model:'IphoneX.glb',
 		id: '5',
+
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '256GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'Retina IPS LCD, 625 nits (typ)',
+					'4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)	',
+					'1750 x 1334 pixels, 16:9 ratio (~326 ppi density)',
+					'Ion-strengthened glass, oleophobic coating',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Apple A11 Bionic SoC',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					'4GB of RAM',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'16MP camera with F/1.8 lens',
+					'optical image stabilization',
+					' quad-LED flash with slow sync',
+					'phase detection auto focus',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					' 2160p@60/30fps',
+					'1080p@30/60/120/240fps video recording',
+				],
+			},
+			{
+				name: 'Battery',
+				data: [' 1,821mAh battery, wireless charging (Qi compatible)'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '98%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Phone',
+						percents: '52%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '20%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '70%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '52%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '86%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '98%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '23%',
+						statNumber: '76.0',
+					},
+				],
+			},
+		],
 	},
 	{
-		name: 'One Plus 5t',
+		name: 'One Plus 7 Pro',
 		image: 'bg-OnePlus5t',
 		display: '1080x2160 px',
 		camera: 'Main 16 mp',
 		ram: '6/8GB RAM',
 		battery: '3300 mAh',
 		price: '7 999',
+		count:'7',
+		model:'OnePlus7.glb',
 		id: '6',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '128GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					' 6.67" AMOLED',
+					'HDR10, 120Hz, 450-700 nits (typ)',
+					'1080x2400px resolution,',
+					'20:9 aspect ratio',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm SM7150-AC Snapdragon 732G (8 nm)',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					' Adreno 618',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					' Wide (main): 108 MP, f/1.8, 25mm, 1/1.52",',
+					'0.7µm, PDAF',
+					'Ultrawide angle: 8 MP',
+					' f/2.2, 118˚, 1/4.0", 1.12µm',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					'4K@30fps, 1080p@30/60fps',
+					'gyro-EIS; Front camera: 1080p@30fps, gyro-EIS',
+				],
+			},
+			{
+				name: 'Battery',
+				data: ['5,020mAh; Fast charging 33W.'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '53%',
+						statNumber: '765.182',
+					},
+					{
+						statName: 'This Phone',
+						percents: '67%',
+						statNumber: '627.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '72%',
+						statNumber: '242.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '764.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '76%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '72%',
+						statNumber: '64.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '21%',
+						statNumber: '87.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '5%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '123.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '76%',
+						statNumber: '812.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '761.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '761.924',
+					},
+				],
+			},
+		],
 	},
+	
 	{
 		name: 'Redmi9',
 		image: 'bg-Redmi9',
@@ -437,7 +789,132 @@ export const phoneData = [
 		ram: '4/6GB RAM',
 		battery: '6000 mAh',
 		price: '3 100',
+		count:'5',
+		model:'Redmi9.glb',
 		id: '7',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '128GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					' 6.67" AMOLED',
+					'HDR10, 120Hz, 450-700 nits (typ)',
+					'1080x2400px resolution,',
+					'20:9 aspect ratio',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm SM7150-AC Snapdragon 732G (8 nm)',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					' Adreno 618',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					' Wide (main): 108 MP, f/1.8, 25mm, 1/1.52",',
+					'0.7µm, PDAF',
+					'Ultrawide angle: 8 MP',
+					' f/2.2, 118˚, 1/4.0", 1.12µm',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					'4K@30fps, 1080p@30/60fps',
+					'gyro-EIS; Front camera: 1080p@30fps, gyro-EIS',
+				],
+			},
+			{
+				name: 'Battery',
+				data: ['5,020mAh; Fast charging 33W.'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '53%',
+						statNumber: '765.182',
+					},
+					{
+						statName: 'This Phone',
+						percents: '67%',
+						statNumber: '627.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '72%',
+						statNumber: '242.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '764.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '76%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '72%',
+						statNumber: '64.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '21%',
+						statNumber: '87.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '5%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '123.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '76%',
+						statNumber: '812.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '761.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '761.924',
+					},
+				],
+			},
+		],
 	},
 	{
 		name: 'Samsung S21',
@@ -448,7 +925,107 @@ export const phoneData = [
 		battery: '4000 mAh',
 		discount: '16 000',
 		price: '18 999',
+		count:'5',
+		model:'SamsungS21.glb',
 		id: '8',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['128GB', '512GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'Super AMOLED, 2,960x1440px resolution',
+					'4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)	',
+					'1750 x 1334 pixels, 16:9 ratio (~326 ppi density)',
+					'Ion-strengthened glass, oleophobic coating',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm Snapdragon 865',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					'4GB of RAM',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'48MP camera with F/1.8 lens',
+					'optical image stabilization',
+					' quad-LED flash with slow sync',
+					'phase detection auto focus',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					' 2160p@60/60fps',
+					'1080p@30/60/120/240fps video recording',
+				],
+			},
+			{
+				name: 'Battery',
+				data: [' 4,025mAh battery, wireless charging (Qi compatible)'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Phone',
+						percents: '87%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '40%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '90%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '75%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '98%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '87%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '19%',
+						statNumber: '76.0',
+					},
+				],
+			},
+		],
 	},
 	{
 		name: 'Samsung S8',
@@ -459,26 +1036,398 @@ export const phoneData = [
 		battery: '3000 mAh',
 		price: '15 399',
 		id: '9',
+		model:'SamsungS8.glb',
+		count:'5',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '128GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					' 6.67" AMOLED',
+					'HDR10, 120Hz, 450-700 nits (typ)',
+					'1080x2400px resolution,',
+					'20:9 aspect ratio',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm SM7150-AC Snapdragon 732G (8 nm)',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					' Adreno 618',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					' Wide (main): 108 MP, f/1.8, 25mm, 1/1.52",',
+					'0.7µm, PDAF',
+					'Ultrawide angle: 8 MP',
+					' f/2.2, 118˚, 1/4.0", 1.12µm',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					'4K@30fps, 1080p@30/60fps',
+					'gyro-EIS; Front camera: 1080p@30fps, gyro-EIS',
+				],
+			},
+			{
+				name: 'Battery',
+				data: ['5,020mAh; Fast charging 33W.'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '53%',
+						statNumber: '765.182',
+					},
+					{
+						statName: 'This Phone',
+						percents: '67%',
+						statNumber: '627.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '72%',
+						statNumber: '242.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '764.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '76%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '72%',
+						statNumber: '64.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '21%',
+						statNumber: '87.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '5%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '123.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '76%',
+						statNumber: '812.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '761.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '761.924',
+					},
+				],
+			},
+		],
+		
 	},
 	{
-		name: 'Samsung S10',
+		name: 'Samsung S9',
 		image: 'bg-SamsungS10',
 		display: '1440x3040 px',
 		camera: 'Main 16 mp',
 		ram: '6/8GB RAM',
 		battery: '3400 mAh',
 		price: '17 899',
+		model:'SamsungS9.glb',
 		id: '10',
-	},
-	{
-		name: 'Xiaomi P10',
-		image: 'bg-XiaomiP10',
-		display: '1080x2400 px',
-		camera: 'Main 50 mp',
-		ram: '4/6GB RAM',
-		discount: '10 599',
-		battery: '5000mAh',
-		price: '12 000',
-		id: '11',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '256GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'5.8" Super AMOLED',
+					'2,960x1440px resolution',
+					'18.5:9 (2.06:1) aspect ratio',
+					'570ppi',
+					'HDR 10 compliant (no Dolby Vision)',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm Snapdragon 835',
+					'octa-core CPU (4xKryo 280 + 4xCortex-A53)',
+					'Adreno 540 GPU',
+					' Exynos 8895: octa-core CPU (4x2nd-gen Mongoose + 4xCortex-A53), Mali-G71 GPU',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'12MP, f/1.7 aperture',
+					'dual pixel phase detection autofocus',
+					'OIS; multi-shot image stacking',
+					'2160p/30fps video recording',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					'4K@30fps, 1080p@30/60fps',
+					'gyro-EIS; Front camera: 1080p@30fps, gyro-EIS',
+				],
+			},
+			{
+				name: 'Battery',
+				data: ['3,000mAh Li-Ion (sealed).'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '765.182',
+					},
+					{
+						statName: 'This Phone',
+						percents: '21%',
+						statNumber: '627.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '82%',
+						statNumber: '242.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '764.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '65%',
+						statNumber: '64.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '76%',
+						statNumber: '87.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '87%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '76%',
+						statNumber: '123.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '74%',
+						statNumber: '812.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '65%',
+						statNumber: '761.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '57%',
+						statNumber: '761.924',
+					},
+				],
+			},
+		],
 	},
 ];
+
+export const TvData = [
+	{
+		name: 'Sony KD65X',
+		image: 'bg-Iphone11Green',
+		display: '3840 x 2160',
+		ghz: '60 GHz',
+		diagonal: '65',
+		id: '11',
+		count: '6',
+		model:'TV1.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},	
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+		{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},	
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+	{
+		name: 'Sony KD65XH8196BAEP',
+		image: 'bg-Iphone11Green',
+		display: '1170x2532 px',
+		camera: '',
+		ram: '4GB RAM',
+		battery: '2815 mAh',
+		price: '15 999',
+		id: '1',
+		count: '8',
+		model:'Iphone11.glb',
+	},
+]

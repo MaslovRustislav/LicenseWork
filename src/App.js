@@ -6,7 +6,6 @@ import Routing from './screens/Navigation/Routing';
 function App() {
 	return (
 		<div className='App min-h-screen flex flex-col grow'>
-			{console.log('App js')}
 			<BrowserRouter>
 				<Fragment>
 					<Routing />

@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { phoneData } from '../../assets/mockData';
 import PhoneCard from '../Landing/PhoneCard';
 
 const Landing = () => {
-	const arrayOfPhones = [1, 5, 8, 2, 3];
-	console.log('after FUnc', arrayOfPhones);
-
-	console.log('before FUnc', arrayOfPhones);
 
 	return (
 		<div>

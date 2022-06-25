@@ -3,14 +3,14 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="footerIconContainer">
-        <h2>Alatura-te</h2>
-        <div>
+    <footer className="min-h-full flex justify-between flex-wrap py-5 px-3 w-full bg-black">
+      <div className="flex flex-col">
+        <h2 className="text-white border-b-2 m-2">Join Us</h2>
+        <div className="flex space-x-5 w-full">
+          <div className="footerIcon ml-2"></div>
           <div className="footerIcon"></div>
           <div className="footerIcon"></div>
-          <div className="footerIcon"></div>
-          <div className="footerIcon"></div>
+          <div className="footerIcon "></div>
         </div>
       </div>
 

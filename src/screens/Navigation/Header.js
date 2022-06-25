@@ -1,98 +1,179 @@
-// import { render } from '@testing-library/react'
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './index.css';
+import React, { useState } from "react";
+import { Transition } from "@headlessui/react";
+import {Link} from 'react-router-dom'
 
-const Header = () => {
-	console.log('Header');
-	return (
-		<div>
-			<nav id='menu'>
-				<input
-					type='checkbox'
-					id='responsive-menu'
-					onclick='updatemenu()'></input>
-				<label></label>
-				<ul>					
-				<div className='flex justify-between '>
+function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div>
+      <nav className="bg-cyan-700">
+        <div className="max-w-full mx-7">
+          <div className="flex w-full items-center justify-between h-16">
+            <div className="flex w-full items-center">
+              <div className="flex-shrink-0">
+			  <Link to={'/'} className='font-Voltaire text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r my-5 from-cyan-300 to-sky-700'>
+					Volt
+				</Link>
+              </div>
+              <div className="hidden md:block w-full ">
+                <div className="ml-10 flex items-baseline w-full justify-between space-x-4">
 					<div>
-					<li>
-						<Link to='/'>
-							<div className='navLogo'></div>
-						</Link>
-					</li>
-					
-					<li>
-						<a className='dropdown-arrow'>Telefoane si gadget-uri</a>
-						<ul className='sub-menus'>
-							<li>
-								<Link to='/Phones'>Phones</Link>
-							</li>
-							<li>
-								<a href='http://'>Casti/boxe/huse</a>
-							</li>
-							<li>
-								<a href='http://'>Vehicule si dronuri</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a className='dropdown-arrow' href='http://'>
-							Televizoare
-						</a>
-						<ul className='sub-menus'>
-							<li>
-								<a href='http://'>LG</a>
-							</li>
-							<li>
-								<a href='http://'>Samsung</a>
-							</li>
-							<li>
-								<a href='http://'>Philips</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a className='dropdown-arrow'>Electrocasnice mici</a>
-						<ul className='sub-menus'>
-							<li>
-								<a href='http://'>Tehnica de bucatarie</a>
-							</li>
-							<li>
-								<a href='http://'>Tehnica pentru casa</a>
-							</li>
-							<li>
-								<a href='http://'>Tehnica pentru ograda</a>
-							</li>
-							<li>
-								<a href='http://'>Vesela</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href='../ProfileScreen/ContactUsProfile/contactUs.html'>
-							Contact Us
-						</a>
-					</li>
-					</div>
-					<div>
-					<li className='signInNav'>
-					<Link to='/signUp'>
-						<a href='SignInProfile/signIn.html'>Sign In</a>
-						</Link>
-					</li>
-					<li className='logInNav'>
-					<Link to='/signIn'>
+                  <Link
+                   to={'/Phones'}
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Phones
+                  </Link> 
 
-						<a href='logInProfile/logIn.html'>Log In</a>
-						</Link>
+                  <Link
+                   to={'/TV'}
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+					  TV's
+                  </Link>
 
-					</li>
-					</div>
-					</div>
-				</ul>
-			</nav>
-		</div>
-	);
-};
-export default Header;
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Headphones
+                  </a>
+
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Cases
+                  </a>
+				  </div>
+				  <div className="  pr-5 ">
+				  <Link
+                   to={'/signIn'}
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+					  Sign In
+                  </Link> 
+				  <Link
+                   to={'/signUp'}
+                    className="  ml-2 bg-gradient-to-r from-cyan-400 to-sky-500 text-gray-900 p-1 k  py-2 rounded-md text-sm font-medium"
+                  >
+					  Sign Up
+                  </Link>
+				  </div>
+                </div>
+              </div>
+            </div>
+            <div className="-mr-2 flex md:hidden">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                type="button"
+                className="bg-cyan-800 inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-white hover:bg-cyan-800 focus:ring-white"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+              >
+                <span className="sr-only">Open main menu</span>
+                {!isOpen ? (
+                  <svg
+                    className="block h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    className="block h-6 w-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <Transition
+          show={isOpen}
+          enter="transition ease-out duration-100 transform"
+          enterFrom="opacity-0 scale-95"
+          enterTo="opacity-100 scale-100"
+          leave="transition ease-in duration-75 transform"
+          leaveFrom="opacity-100 scale-100"
+          leaveTo="opacity-0 scale-95"
+        >
+          {(ref) => (
+            <div className="md:hidden" id="mobile-menu">
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div>
+                  <Link
+                   to={'/Phones'}
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Phones
+                  </Link> 
+
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+					  TV's
+                  </a>
+
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Headphones
+                  </a>
+
+                  <a
+                    href="#"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Cases
+                  </a>
+				  </div>
+				  <div className="  pr-5 ">
+				  <Link
+                   to={'/signIn'}
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+					  Sign In
+                  </Link> 
+				  <Link
+                   to={'/signUp'}
+                    className="  ml-2 bg-gradient-to-r from-cyan-400 to-sky-500 text-gray-900 p-1 k  py-2 rounded-md text-sm font-medium"
+                  >
+					  Sign Up
+                  </Link>
+				  </div>
+              </div>
+            </div>
+          )}
+        </Transition>
+      </nav>
+
+  
+    </div>
+  );
+}
+
+export default Nav;

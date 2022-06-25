@@ -2,7 +2,6 @@ import React from 'react';
 import { phoneData } from '../../assets/mockData';
 import PhoneCard from '../Landing/PhoneCard';
 const DeviceContainer = () => {
-	console.log('phoneData', phoneData);
 
 	return (
 		<div className=' w-full justify-around  flex-wrap flex '>

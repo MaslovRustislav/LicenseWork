@@ -15,7 +15,6 @@ class DeviceViewer extends Component {
 		// this.model = require(pathToModels+ props.model);
 		this.model = require('../../assets/Models/'+props.model);
 		const imageBg = require('../../assets/Images/backgroundFor3d1.jpg');
-		console.log('propses',props)
 		this.camera = new THREE.PerspectiveCamera(
 			50,
 			window.innerWidth / window.innerHeight,
@@ -40,6 +39,10 @@ class DeviceViewer extends Component {
 		const light = new THREE.DirectionalLight();
 		light.position.set(0.2, 0.3, 3);
 		this.scene.add(light);
+
+			const lightBack = new THREE.DirectionalLight();
+			lightBack.position.set(0.2, 0.3, -3);
+		this.scene.add(lightBack);
 
 		window.addEventListener('resize', this.resize.bind(this));
 		if(this.model)
