@@ -7,25 +7,27 @@ import Header from './Header';
 import Footer from './Footer';
 import SignIn from '../SignInProfile/signIn';
 import SignUp from '../SignUp/signUp';
-import TvContainer from '../DeviceContainer/TV/index'
+import TvPage from '../DevicePage/TV';
+import TvContainer from '../DeviceContainer/TV/index';
 // import ScrollToTop from '../../common/scrollToTop';
 const Routing = () => {
 	return (
 		<div>
 			<Header />
-				<div className='flex  relative flex-col min-h-screen'>
-			<Routes>
-				{/* <ScrollToTop> */}
-				<Route path='/' element={<Landing />} />
-				<Route path='/Phones' element={<DeviceContainer />} />
-				<Route path='/:id' element={<DevicePage />} />
-				<Route path='/signIn' element={<SignIn/>} />
-				<Route path='/signUp' element={<SignUp/>} />
-				<Route path='/TV' element={<TvContainer/>} />
+			<div className='flex  relative flex-col min-h-screen'>
+				<Routes>
+					{/* <ScrollToTop> */}
+					<Route path='/' element={<Landing />} />
+					<Route path='/Phones' element={<DeviceContainer />} />
+					<Route path='/:id' element={<DevicePage />} />
+					<Route path='/signIn' element={<SignIn />} />
+					<Route path='/signUp' element={<SignUp />} />
+					<Route path='/TV' element={<TvContainer />} />
+					<Route path='/:id' element={<TvPage />} />
 
-				{/* </ScrollToTop> */}
-			</Routes>
-				</div>
+					{/* </ScrollToTop> */}
+				</Routes>
+			</div>
 			<Footer />
 		</div>
 	);

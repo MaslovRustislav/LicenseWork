@@ -1,13 +1,7 @@
 import React from 'react';
-import {
-	FiShoppingCart,
-	FiBatteryCharging,
-	FiCamera,
-	FiSmartphone,
-} from 'react-icons/fi';
-import { BiDollarCircle } from 'react-icons/bi';
+import { FiMonitor, FiBarChart, FiShoppingCart } from 'react-icons/fi';
+import { BiDollarCircle, BiTv } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-import { MdMemory } from 'react-icons/md';
 const TvCard = ({
 	name,
 	image,
@@ -47,18 +41,17 @@ const TvCard = ({
 
 				<div className='p-2 '>
 					<div className='pl-2 pt-2 space-x-2  items-center flex text-sm'>
-						<FiSmartphone />
+						<FiMonitor />
 						<p>{display}</p>
 					</div>
 					<div className='pl-2 pt-2  space-x-2 items-center flex text-sm'>
-						<FiCamera />
+						<FiBarChart />
 						<p>{ghz}</p>
 					</div>
 					<div className='pl-2 pt-2  space-x-2 items-center flex text-sm'>
-						<MdMemory />
+						<BiTv />
 						<p>{diagonal}</p>
 					</div>
-				
 				</div>
 				<div className='flex justify-around mx-auto w-4/5  '>
 					<button className=' rounded-xl text-black px-4 text-xs  py-2 mx-2 bg-blue-500 text-center'>

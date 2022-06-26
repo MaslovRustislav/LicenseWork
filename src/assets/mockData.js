@@ -9,7 +9,7 @@ export const phoneData = [
 		price: '15 999',
 		id: '1',
 		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 		stats: [
 			{
 				name: 'Capacity',
@@ -145,7 +145,7 @@ export const phoneData = [
 		price: '11 499',
 		id: '2',
 		count: '13',
-		model:'Xiaomi10.glb',
+		model: 'Xiaomi10.glb',
 		stats: [
 			{
 				name: 'Capacity',
@@ -272,8 +272,8 @@ export const phoneData = [
 		battery: '1821 mAh',
 		price: '10 599',
 		id: '3',
-		model:'Iphone8.glb',
-		count:'5',
+		model: 'Iphone8.glb',
+		count: '5',
 		stats: [
 			{
 				name: 'Capacity',
@@ -310,10 +310,7 @@ export const phoneData = [
 			},
 			{
 				name: 'Video Recording',
-				data: [
-					' 2160p@60/30fps',
-					'1080p@30/60/120/240fps video recording',
-				],
+				data: [' 2160p@60/30fps', '1080p@30/60/120/240fps video recording'],
 			},
 			{
 				name: 'Battery',
@@ -406,8 +403,8 @@ export const phoneData = [
 		ram: '1GB RAM',
 		battery: '1560 mAh',
 		price: '5 999',
-		count:'2',
-		model:'Iphone5.glb',
+		count: '2',
+		model: 'Iphone5.glb',
 		stats: [
 			{
 				name: 'Capacity',
@@ -444,10 +441,7 @@ export const phoneData = [
 			},
 			{
 				name: 'Video Recording',
-				data: [
-					' 2160p@60/30fps',
-					'1080p@30/60/120/240fps video recording',
-				],
+				data: [' 2160p@60/30fps', '1080p@30/60/120/240fps video recording'],
 			},
 			{
 				name: 'Battery',
@@ -542,8 +536,8 @@ export const phoneData = [
 		discount: '9 000',
 		battery: '2176 mAh',
 		price: '9 499',
-		count:'8',
-		model:'IphoneX.glb',
+		count: '8',
+		model: 'IphoneX.glb',
 		id: '5',
 
 		stats: [
@@ -582,10 +576,7 @@ export const phoneData = [
 			},
 			{
 				name: 'Video Recording',
-				data: [
-					' 2160p@60/30fps',
-					'1080p@30/60/120/240fps video recording',
-				],
+				data: [' 2160p@60/30fps', '1080p@30/60/120/240fps video recording'],
 			},
 			{
 				name: 'Battery',
@@ -653,8 +644,8 @@ export const phoneData = [
 		ram: '6/8GB RAM',
 		battery: '3300 mAh',
 		price: '7 999',
-		count:'7',
-		model:'OnePlus7.glb',
+		count: '7',
+		model: 'OnePlus7.glb',
 		id: '6',
 		stats: [
 			{
@@ -780,7 +771,7 @@ export const phoneData = [
 			},
 		],
 	},
-	
+
 	{
 		name: 'Redmi9',
 		image: 'bg-Redmi9',
@@ -789,8 +780,8 @@ export const phoneData = [
 		ram: '4/6GB RAM',
 		battery: '6000 mAh',
 		price: '3 100',
-		count:'5',
-		model:'Redmi9.glb',
+		count: '5',
+		model: 'Redmi9.glb',
 		id: '7',
 		stats: [
 			{
@@ -925,8 +916,8 @@ export const phoneData = [
 		battery: '4000 mAh',
 		discount: '16 000',
 		price: '18 999',
-		count:'5',
-		model:'SamsungS21.glb',
+		count: '5',
+		model: 'SamsungS21.glb',
 		id: '8',
 		stats: [
 			{
@@ -964,10 +955,7 @@ export const phoneData = [
 			},
 			{
 				name: 'Video Recording',
-				data: [
-					' 2160p@60/60fps',
-					'1080p@30/60/120/240fps video recording',
-				],
+				data: [' 2160p@60/60fps', '1080p@30/60/120/240fps video recording'],
 			},
 			{
 				name: 'Battery',
@@ -1036,8 +1024,8 @@ export const phoneData = [
 		battery: '3000 mAh',
 		price: '15 399',
 		id: '9',
-		model:'SamsungS8.glb',
-		count:'5',
+		model: 'SamsungS8.glb',
+		count: '5',
 		stats: [
 			{
 				name: 'Capacity',
@@ -1161,7 +1149,6 @@ export const phoneData = [
 				],
 			},
 		],
-		
 	},
 	{
 		name: 'Samsung S9',
@@ -1171,7 +1158,7 @@ export const phoneData = [
 		ram: '6/8GB RAM',
 		battery: '3400 mAh',
 		price: '17 899',
-		model:'SamsungS9.glb',
+		model: 'SamsungS9.glb',
 		id: '10',
 		stats: [
 			{
@@ -1302,132 +1289,204 @@ export const phoneData = [
 export const TvData = [
 	{
 		name: 'Sony KD65X',
-		image: 'bg-Iphone11Green',
+		image: 'bg-SonyK',
 		display: '3840 x 2160',
+		price: '19 999',
 		ghz: '60 GHz',
 		diagonal: '65',
 		id: '11',
 		count: '6',
-		model:'TV1.glb',
+		model: 'TV1.glb',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '256GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'5.8" Super AMOLED',
+					'2,960x1440px resolution',
+					'18.5:9 (2.06:1) aspect ratio',
+					'570ppi',
+					'HDR 10 compliant (no Dolby Vision)',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm Snapdragon 835',
+					'octa-core CPU (4xKryo 280 + 4xCortex-A53)',
+					'Adreno 540 GPU',
+					' Exynos 8895: octa-core CPU (4x2nd-gen Mongoose + 4xCortex-A53), Mali-G71 GPU',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'12MP, f/1.7 aperture',
+					'dual pixel phase detection autofocus',
+					'OIS; multi-shot image stacking',
+					'2160p/30fps video recording',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					'4K@30fps, 1080p@30/60fps',
+					'gyro-EIS; Front camera: 1080p@30fps, gyro-EIS',
+				],
+			},
+			{
+				name: 'Battery',
+				data: ['3,000mAh Li-Ion (sealed).'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '765.182',
+					},
+					{
+						statName: 'This Phone',
+						percents: '21%',
+						statNumber: '627.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '82%',
+						statNumber: '242.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '764.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '65%',
+						statNumber: '64.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '76%',
+						statNumber: '87.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '87%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '76%',
+						statNumber: '123.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '74%',
+						statNumber: '812.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '65%',
+						statNumber: '761.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '57%',
+						statNumber: '761.924',
+					},
+				],
+			},
+		],
 	},
 	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
+		name: 'LG 5OXK',
+		image: 'bg-LGPNG',
+		display: '3840 x 2160',
+		ghz: '90 GHz',
+		diagonal: '70',
 		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
+		price: '22 999',
+		id: '12',
 		count: '8',
-		model:'Iphone11.glb',
-	},	
-	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
-		count: '8',
-		model:'Iphone11.glb',
-	},
-		{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
-		count: '8',
-		model:'Iphone11.glb',
-	},	
-	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
-		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 	},
 	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
+		name: 'LG k209',
+		image: 'bg-LGJPG',
+		display: '2045x1080 px',
+		ghz: '90 GHz',
+		diagonal: '70',
 		ram: '4GB RAM',
-		battery: '2815 mAh',
 		price: '15 999',
-		id: '1',
+		id: '13',
 		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 	},
 	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
+		name: 'OZON',
+		image: 'bg-OZON',
+		display: '3980x2160 px',
+		ghz: '120 GHz',
+		diagonal: '80',
+		price: '36 999',
+		id: '14',
 		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 	},
 	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
+		name: 'Philips P10',
+		image: 'bg-Philips',
+		display: '3980x2160 px',
+		ghz: '90 GHz',
+		diagonal: '90',
+		price: '21 999',
+		id: '15',
 		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 	},
 	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
+		name: 'Samsung P1000',
+		image: 'bg-SamsungP1000',
+		display: '1960x1080 px',
+		ghz: '90 GHz',
+		diagonal: '80',
+		price: '26 999',
+		id: '16',
 		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 	},
 	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
+		name: 'Xiaomi G200',
+		image: 'bg-Xiaomi',
+		display: '2045x1080 px',
+		ghz: '60 GHz',
+		diagonal: '60',
+		price: '18 999',
+		id: '16',
 		count: '8',
-		model:'Iphone11.glb',
+		model: 'Iphone11.glb',
 	},
-	{
-		name: 'Sony KD65XH8196BAEP',
-		image: 'bg-Iphone11Green',
-		display: '1170x2532 px',
-		camera: '',
-		ram: '4GB RAM',
-		battery: '2815 mAh',
-		price: '15 999',
-		id: '1',
-		count: '8',
-		model:'Iphone11.glb',
-	},
-]
+];
