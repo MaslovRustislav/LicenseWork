@@ -1324,18 +1324,11 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (Panel)',
-				data: [
-					'3840 x 2160',
-					'LCD',
-					'OIS; multi-shot image stacking',
-				],
+				data: ['3840 x 2160', 'LCD', 'OIS; multi-shot image stacking'],
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'Live Color™ Technology',
-					'Dynamic Contrast Enhancer',
-				],
+				data: ['Live Color™ Technology', 'Dynamic Contrast Enhancer'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -1420,6 +1413,7 @@ export const TvData = [
 			},
 		],
 	},
+
 	{
 		name: 'LG 5OXK',
 		image: 'bg-LGPNG',
@@ -1428,6 +1422,8 @@ export const TvData = [
 		diagonal: '70',
 		ram: '4GB RAM',
 		price: '22 999',
+		discount: '18 000',
+
 		id: '12',
 		count: '8',
 		stats: [
@@ -1464,10 +1460,7 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'PQI (Picture Quality Index) 2000',
-					'Mega Contrast',
-				],
+				data: ['PQI (Picture Quality Index) 2000', 'Mega Contrast'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -1587,17 +1580,11 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (Panel)',
-				data: [
-					' 3840x2160 UltraHD 4K',
-					'IPS',
-				],
+				data: [' 3840x2160 UltraHD 4K', 'IPS'],
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'TruMotion 120 Hz',
-					'High Contrast',
-				],
+				data: ['TruMotion 120 Hz', 'High Contrast'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -1725,10 +1712,7 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'PQI (Picture Quality Index) 2000',
-					'Mega Contrast',
-				],
+				data: ['PQI (Picture Quality Index) 2000', 'Mega Contrast'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -1849,18 +1833,11 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (Panel)',
-				data: [
-					'3840 x 2160',
-					'LCD',
-					'OIS; multi-shot image stacking',
-				],
+				data: ['3840 x 2160', 'LCD', 'OIS; multi-shot image stacking'],
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'Live Color™ Technology',
-					'Dynamic Contrast Enhancer',
-				],
+				data: ['Live Color™ Technology', 'Dynamic Contrast Enhancer'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -1952,6 +1929,7 @@ export const TvData = [
 		ghz: '90 GHz',
 		diagonal: '80',
 		price: '26 999',
+		discount: '23 999',
 		id: '16',
 		count: '8',
 		stats: [
@@ -1988,10 +1966,7 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'PQI (Picture Quality Index) 2000',
-					'Mega Contrast',
-				],
+				data: ['PQI (Picture Quality Index) 2000', 'Mega Contrast'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -2110,17 +2085,11 @@ export const TvData = [
 			},
 			{
 				name: 'Picture (Panel)',
-				data: [
-					' 3840x2160 UltraHD 4K',
-					'IPS',
-				],
+				data: [' 3840x2160 UltraHD 4K', 'IPS'],
 			},
 			{
 				name: 'Picture (processing)',
-				data: [
-					'TruMotion 120 Hz',
-					'High Contrast',
-				],
+				data: ['TruMotion 120 Hz', 'High Contrast'],
 			},
 			{
 				name: 'Sound (Speakers and Amplifier)',
@@ -2205,848 +2174,2252 @@ export const TvData = [
 			},
 		],
 	},
+	{
+		name: 'Samsung P10',
+		image: 'bg-SamsungP10',
+		display: '3840 x 2160',
+		price: '23 999',
+		ghz: '90 GHz',
+		diagonal: '72',
+		id: '18',
+		count: '6',
+		stats: [
+			{
+				name: 'Year',
+				data: ['2018'],
+			},
+
+			{
+				name: 'Dimensions and Weight',
+				data: [
+					'42 1/8 inch / 1067 mm',
+					'65" (64.5")',
+					'163.9 cm',
+					'570ppi',
+					'HDR 10 compliant (no Dolby Vision)',
+				],
+			},
+			{
+				name: 'Connectivity',
+				data: [
+					'HDCP 2.3 (for HDMI™ 1/2/3/4)',
+					'FAT16/FAT32/exFAT/NTFS',
+					'1 (Bottom Hybrid with Component)',
+					'1 (rear/hybrid with headphone and subwoofer out)',
+				],
+			},
+			{
+				name: 'Picture (Panel)',
+				data: ['3840 x 2160', 'LCD', 'OIS; multi-shot image stacking'],
+			},
+			{
+				name: 'Picture (processing)',
+				data: ['Live Color™ Technology', 'Dynamic Contrast Enhancer'],
+			},
+			{
+				name: 'Sound (Speakers and Amplifier)',
+				data: ['Bass Reflex Speaker'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '641.182',
+					},
+					{
+						statName: 'This TV',
+						percents: '25%',
+						statNumber: '752.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '75%',
+						statNumber: '641.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '52%',
+						statNumber: '641.654',
+					},
+				],
+			},
+			{
+				name: 'Display Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '92%',
+						statNumber: '4.0',
+					},
+					{
+						statName: 'This TV',
+						percents: '75%',
+						statNumber: '32.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '86%',
+						statNumber: '53.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '56%',
+						statNumber: '86.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '512.944',
+					},
+					{
+						statName: 'This TV',
+						percents: '52%',
+						statNumber: '742.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '334.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '75%',
+						statNumber: '234.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Samsung UE55',
+		image: 'bg-SamsungUE55',
+		display: '3840 x 2160',
+		price: '19 999',
+		ghz: '90 GHz',
+		diagonal: '72',
+		id: '19',
+		count: '6',
+		stats: [
+			{
+				name: 'Year',
+				data: ['2018'],
+			},
+
+			{
+				name: 'Dimensions and Weight',
+				data: [
+					'42 1/8 inch / 1067 mm',
+					'65" (64.5")',
+					'163.9 cm',
+					'570ppi',
+					'HDR 10 compliant (no Dolby Vision)',
+				],
+			},
+			{
+				name: 'Connectivity',
+				data: [
+					'HDCP 2.3 (for HDMI™ 1/2/3/4)',
+					'FAT16/FAT32/exFAT/NTFS',
+					'1 (Bottom Hybrid with Component)',
+					'1 (rear/hybrid with headphone and subwoofer out)',
+				],
+			},
+			{
+				name: 'Picture (Panel)',
+				data: ['3840 x 2160', 'LCD', 'OIS; multi-shot image stacking'],
+			},
+			{
+				name: 'Picture (processing)',
+				data: ['Live Color™ Technology', 'Dynamic Contrast Enhancer'],
+			},
+			{
+				name: 'Sound (Speakers and Amplifier)',
+				data: ['Bass Reflex Speaker'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '641.182',
+					},
+					{
+						statName: 'This TV',
+						percents: '25%',
+						statNumber: '752.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '75%',
+						statNumber: '641.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '52%',
+						statNumber: '641.654',
+					},
+				],
+			},
+			{
+				name: 'Display Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '92%',
+						statNumber: '4.0',
+					},
+					{
+						statName: 'This TV',
+						percents: '75%',
+						statNumber: '32.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '86%',
+						statNumber: '53.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '56%',
+						statNumber: '86.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '512.944',
+					},
+					{
+						statName: 'This TV',
+						percents: '52%',
+						statNumber: '742.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '334.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '75%',
+						statNumber: '234.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Samsung UE50',
+		image: 'bg-SamsungUE50',
+		display: '3840 x 2160',
+		price: '27 999',
+		ghz: '90 GHz',
+		diagonal: '72',
+		id: '20',
+		count: '6',
+		stats: [
+			{
+				name: 'Year',
+				data: ['2019'],
+			},
+
+			{
+				name: 'Dimensions and Weight',
+				data: [
+					'43 1/8 inch / 109 cm',
+					'65" (64.5")',
+					'724ppi',
+					'HDR 10 compliant (no Dolby Vision)',
+				],
+			},
+			{
+				name: 'Connectivity',
+				data: [
+					'HDCP 2.3 (for HDMI™ 1/2/3/4)',
+					'FAT16/FAT32/exFAT/NTFS',
+					'1 (Bottom Hybrid with Component)',
+					'1 (rear/hybrid with headphone and subwoofer out)',
+				],
+			},
+			{
+				name: 'Picture (Panel)',
+				data: [
+					' 3840x2160 UltraHD 4K',
+					'LED',
+					'OIS; multi-shot image stacking',
+				],
+			},
+			{
+				name: 'Picture (processing)',
+				data: ['PQI (Picture Quality Index) 2000', 'Mega Contrast'],
+			},
+			{
+				name: 'Sound (Speakers and Amplifier)',
+				data: ['Dolby Digital Plus'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '251.182',
+					},
+					{
+						statName: 'This TV',
+						percents: '42%',
+						statNumber: '853.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '724.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '34%',
+						statNumber: '423.654',
+					},
+				],
+			},
+			{
+				name: 'Display Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This TV',
+						percents: '53%',
+						statNumber: '53.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '75.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '63.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '63%',
+						statNumber: '862.944',
+					},
+					{
+						statName: 'This TV',
+						percents: '52%',
+						statNumber: '763.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '972.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '732.924',
+					},
+				],
+			},
+		],
+	},
 ];
 export const headPhoneData = [
 	{
-			name: 'HyperX Stinger',
-			image: 'bg-HyperStinger',
-			sensibility: '99 Db',
-			resistance: '40 Ohm',
-			weight: '215 G',
-			price: '949',
-			id: '18',
-			count: '8',
-			model: 'HyperX.glb',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Dynamic, 50mm with neodymium magnets'],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'18Hz-23,000Hz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Headset - 3.5mm plug (4 pole) ',
-						'extension cable - 3.5mm stereo and mic plugs',
-					],
-				},
-				{
-					name: 'Frequency response',
-					data: [
-						' 50Hz~18,000Hz',
-					],
-				},
-				{
-					name: 'Sensitivity',
-					data: [
-						'-40 dBV (0dB=1V/Pa,1kHz)',
-						'High Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 30mW', 'Maximum 500mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall ',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '42%',
-							statNumber: '521.182',
-						},
-						{
-							statName: 'This HeadPhone',
-							percents: '53%',
-							statNumber: '641.659',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '74%',
-							statNumber: '421.764',
-						},
-						{
-							statName: 'Worst',
-							percents: '21%',
-							statNumber: '612.654',
-						},
-					],
-				},
-				{
-					name: 'Display Stats',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '64%',
-							statNumber: '5.0',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '53%',
-							statNumber: '52.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '53%',
-							statNumber: '63.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '23%',
-							statNumber: '52.0',
-						},
-					],
-				},
-				{
-					name: 'Sound',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '42%',
-							statNumber: '521.944',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '521%',
-							statNumber: '63.099',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '22%',
-							statNumber: '521.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '65%',
-							statNumber: '631.924',
-						},
-					],
-				},
-			],
-		},
-		{
-			name: 'HyperX Cloud',
-			image: 'bg-hyperXCloud',
-			sensibility: '98 Db',
-			resistance: '65 Ohm',
-			weight: '336 G',
-			price: '2 399',
-			id: '19',
-			count: '7',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Dynamic, 53mm with neodymium magnets'],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'15Hz–20kHz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Electret condenser microphone',
-						'Bi-directional, Noise-cancelling',
-					],
-				},
+		name: 'HyperX Stinger',
+		image: 'bg-HyperStinger',
+		sensibility: '99 Db',
+		resistance: '40 Ohm',
+		weight: '215 G',
+		price: '949',
+		id: '21',
+		count: '8',
+		model: 'HyperX.glb',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 50mm with neodymium magnets'],
+			},
 
-				{
-					name: 'Sensitivity',
-					data: [
-						'-60 dBV (0dB=2V/Pa,1kHz)',
-						'Low Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 35mW', 'Maximum 700mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall Performance',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '84%',
-							statNumber: '765.561',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '45%',
-							statNumber: '123.269',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '72%',
-							statNumber: '234.654',
-						},
-						{
-							statName: 'Worst',
-							percents: '10%',
-							statNumber: '216.564',
-						},
-					],
-				},
-				{
-					name: 'Bootup Time',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '82%',
-							statNumber: '8.2',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '76%',
-							statNumber: '15.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '90%',
-							statNumber: '26.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '10%',
-							statNumber: '23.0',
-						},
-					],
-				},
-				{
-					name: 'CPU',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '82%',
-							statNumber: '314.534',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '65%',
-							statNumber: '564.239',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '87%',
-							statNumber: '213.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '56%',
-							statNumber: '65.651',
-						},
-					],
-				},
-			],
-		},
-		{
-			name: 'Xiaomi Basic 2',
-			image: 'bg-XiaomiBasic',
-			sensibility: '93 Db',
-			resistance: '68 Ohm',
-			weight: '34 G',
-			price: '599',
-			id: '20',
-			count: '5',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Bluetooth, 53mm '],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'15Hz–20kHz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Electret condenser microphone',
-						'Bi-directional, Noise-cancelling',
-					],
-				},
+			{
+				name: 'Frequency response:	',
+				data: ['18Hz-23,000Hz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Headset - 3.5mm plug (4 pole) ',
+					'extension cable - 3.5mm stereo and mic plugs',
+				],
+			},
+			{
+				name: 'Frequency response',
+				data: [' 50Hz~18,000Hz'],
+			},
+			{
+				name: 'Sensitivity',
+				data: ['-40 dBV (0dB=1V/Pa,1kHz)', 'High Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 30mW', 'Maximum 500mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.182',
+					},
+					{
+						statName: 'This HeadPhone',
+						percents: '53%',
+						statNumber: '641.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '74%',
+						statNumber: '421.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '612.654',
+					},
+				],
+			},
+			{
+				name: 'Vass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '64%',
+						statNumber: '5.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '52.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '53%',
+						statNumber: '63.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '23%',
+						statNumber: '52.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '521%',
+						statNumber: '63.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '22%',
+						statNumber: '521.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '65%',
+						statNumber: '631.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'HyperX Cloud',
+		image: 'bg-hyperXCloud',
+		sensibility: '98 Db',
+		resistance: '65 Ohm',
+		weight: '336 G',
+		price: '2 399',
+		id: '22',
+		count: '7',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 53mm with neodymium magnets'],
+			},
 
-				{
-					name: 'Sensitivity',
-					data: [
-						'-60 dBV (0dB=2V/Pa,1kHz)',
-						'Low Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 35mW', 'Maximum 700mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall Performance',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '37%',
-							statNumber: '905.132',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '64%',
-							statNumber: '524.659',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '61%',
-							statNumber: '532.764',
-						},
-						{
-							statName: 'Worst',
-							percents: '78%',
-							statNumber: '268.654',
-						},
-					],
-				},
-				{
-					name: 'Bootup Time',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '97%',
-							statNumber: '7.0',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '65%',
-							statNumber: '87.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '87%',
-							statNumber: '76.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '10%',
-							statNumber: '76.0',
-						},
-					],
-				},
-				{
-					name: 'CPU',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '65%',
-							statNumber: '876.944',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '80%',
-							statNumber: '906.099',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '79%',
-							statNumber: '104.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '30%',
-							statNumber: '78.924',
-						},
-					],
-				},
-			],
-		},
-		{
-			name: 'Sven AP',
-			image: 'bg-SvenAP',
-			sensibility: '108 Db',
-			resistance: '32 Ohm',
-			weight: '300 G',
-			price: '469',
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
 
-			id: '21',
-			count: '9',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Cable , 53mm '],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'15Hz–20kHz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Electret condenser microphone',
-						'Bi-directional, Noise-cancelling',
-					],
-				},
+			{
+				name: 'Sensitivity',
+				data: ['-60 dBV (0dB=2V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 35mW', 'Maximum 700mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '84%',
+						statNumber: '765.561',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '45%',
+						statNumber: '123.269',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '72%',
+						statNumber: '234.654',
+					},
+					{
+						statName: 'Worst',
+						percents: '10%',
+						statNumber: '216.564',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '82%',
+						statNumber: '8.2',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '76%',
+						statNumber: '15.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '90%',
+						statNumber: '26.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '10%',
+						statNumber: '23.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '82%',
+						statNumber: '314.534',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '65%',
+						statNumber: '564.239',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '87%',
+						statNumber: '213.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '56%',
+						statNumber: '65.651',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Xiaomi Basic 2',
+		image: 'bg-XiaomiBasic',
+		sensibility: '93 Db',
+		resistance: '68 Ohm',
+		weight: '34 G',
+		price: '599',
+		discount: '499',
 
-				{
-					name: 'Sensitivity',
-					data: [
-						'-60 dBV (0dB=2V/Pa,1kHz)',
-						'Low Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 35mW', 'Maximum 700mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall ',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '86%',
-							statNumber: '251.182',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '42%',
-							statNumber: '853.659',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '64%',
-							statNumber: '724.764',
-						},
-						{
-							statName: 'Worst',
-							percents: '34%',
-							statNumber: '423.654',
-						},
-					],
-				},
-				{
-					name: 'Display Stats',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '87%',
-							statNumber: '3.0',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '53%',
-							statNumber: '53.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '64%',
-							statNumber: '75.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '32%',
-							statNumber: '63.0',
-						},
-					],
-				},
-				{
-					name: 'Sound',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '63%',
-							statNumber: '862.944',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '52%',
-							statNumber: '763.099',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '42%',
-							statNumber: '972.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '32%',
-							statNumber: '732.924',
-						},
-					],
-				},
-			],
-		},
-		{
-			name: 'Freestyle FH0915',
-			image: 'bg-Freestyle',
-			sensibility: '103 Db',
-			resistance: '40 Ohm',
-			weight: '150 G',
-			price: '349',			
-			id: '22',
-			count: '3',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Dynamic, 53mm with neodymium magnets'],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'15Hz–20kHz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Electret condenser microphone',
-						'Bi-directional, Noise-cancelling',
-					],
-				},
+		id: '23',
+		count: '5',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Bluetooth, 53mm '],
+			},
 
-				{
-					name: 'Sensitivity',
-					data: [
-						'-60 dBV (0dB=2V/Pa,1kHz)',
-						'Low Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 35mW', 'Maximum 700mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall ',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '86%',
-							statNumber: '251.182',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '42%',
-							statNumber: '853.659',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '64%',
-							statNumber: '724.764',
-						},
-						{
-							statName: 'Worst',
-							percents: '34%',
-							statNumber: '423.654',
-						},
-					],
-				},
-				{
-					name: 'Display Stats',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '87%',
-							statNumber: '3.0',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '53%',
-							statNumber: '53.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '64%',
-							statNumber: '75.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '32%',
-							statNumber: '63.0',
-						},
-					],
-				},
-				{
-					name: 'Sound',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '63%',
-							statNumber: '862.944',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '52%',
-							statNumber: '763.099',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '42%',
-							statNumber: '972.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '32%',
-							statNumber: '732.924',
-						},
-					],
-				},
-			],
-		
-		},
-		{
-			name: 'Apple AirPods 3',
-			image: 'bg-AirPods',
-			sensibility: '90 Db',
-			resistance: '32 Ohm',
-			weight: '37 G',
-			price: '4 399',
-			id: '23',
-			count: '5',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Blouetoth, 42mm with neodymium magnets'],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'15Hz–20kHz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Electret condenser microphone',
-						'Bi-directional, Noise-cancelling',
-					],
-				},
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
 
-				{
-					name: 'Sensitivity',
-					data: [
-						'-4 dBV (0dB=1V/Pa,1kHz)',
-						'Low Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 25mW', 'Maximum 800mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall ',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '86%',
-							statNumber: '251.182',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '42%',
-							statNumber: '853.659',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '64%',
-							statNumber: '724.764',
-						},
-						{
-							statName: 'Worst',
-							percents: '34%',
-							statNumber: '423.654',
-						},
-					],
-				},
-				{
-					name: 'Display Stats',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '87%',
-							statNumber: '3.0',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '53%',
-							statNumber: '53.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '64%',
-							statNumber: '75.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '32%',
-							statNumber: '63.0',
-						},
-					],
-				},
-				{
-					name: 'Sound',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '63%',
-							statNumber: '862.944',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '52%',
-							statNumber: '763.099',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '42%',
-							statNumber: '972.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '32%',
-							statNumber: '732.924',
-						},
-					],
-				},
-			],
-		},
-		{
-			name: 'JBL T500BT',
-			image: 'bg-JBL',
-			sensibility: '92 Db',
-			resistance: '32 Ohm',
-			weight: '155 G',
-			price: '4 399',
+			{
+				name: 'Sensitivity',
+				data: ['-60 dBV (0dB=2V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 35mW', 'Maximum 700mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '37%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '64%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '61%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '78%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '97%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '65%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '87%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '10%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '876.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '80%',
+						statNumber: '906.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '104.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '78.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Sven AP',
+		image: 'bg-SvenAP',
+		sensibility: '108 Db',
+		resistance: '32 Ohm',
+		weight: '300 G',
+		price: '469',
 
-			id: '24',
-			count: '2',
-			stats: [
-				{
-					name: 'Driver',
-					data: ['Dynamic, 53mm with neodymium magnets'],
-				},
-	
-				{
-					name: 'Frequency response:	',
-					data: [
-						'15Hz–20kHz',
-					],
-				},
-				{
-					name: 'Connection',
-					data: [
-						'Electret condenser microphone',
-						'Bi-directional, Noise-cancelling',
-					],
-				},
+		id: '24',
+		count: '9',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Cable , 53mm '],
+			},
 
-				{
-					name: 'Sensitivity',
-					data: [
-						'-60 dBV (0dB=2V/Pa,1kHz)',
-						'Low Contrast',
-					],
-				},
-				{
-					name: 'Input power',
-					data: ['Rated 35mW', 'Maximum 700mW'],
-				},
-			],
-			antutuStats: [
-				{
-					name: 'Overall ',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '65%',
-							statNumber: '641.182',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '25%',
-							statNumber: '752.659',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '75%',
-							statNumber: '641.764',
-						},
-						{
-							statName: 'Worst',
-							percents: '52%',
-							statNumber: '641.654',
-						},
-					],
-				},
-				{
-					name: 'Display Stats',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '92%',
-							statNumber: '4.0',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '75%',
-							statNumber: '32.0',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '86%',
-							statNumber: '53.8',
-						},
-						{
-							statName: 'Worst',
-							percents: '56%',
-							statNumber: '86.0',
-						},
-					],
-				},
-				{
-					name: 'Sound',
-					data: [
-						{
-							statName: 'GroupBest',
-							percents: '87%',
-							statNumber: '512.944',
-						},
-						{
-							statName: 'This Headphone',
-							percents: '52%',
-							statNumber: '742.099',
-						},
-						{
-							statName: 'Group* Avg',
-							percents: '42%',
-							statNumber: '334.158',
-						},
-						{
-							statName: 'Worst',
-							percents: '75%',
-							statNumber: '234.924',
-						},
-					],
-				},
-			],
-		},
-]
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
+
+			{
+				name: 'Sensitivity',
+				data: ['-60 dBV (0dB=2V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 35mW', 'Maximum 700mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '251.182',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '42%',
+						statNumber: '853.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '724.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '34%',
+						statNumber: '423.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '53.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '75.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '63.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '63%',
+						statNumber: '862.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '52%',
+						statNumber: '763.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '972.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '732.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Freestyle FH0915',
+		image: 'bg-Freestyle',
+		sensibility: '103 Db',
+		resistance: '40 Ohm',
+		weight: '150 G',
+		price: '349',
+		id: '25',
+		count: '3',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 53mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
+
+			{
+				name: 'Sensitivity',
+				data: ['-60 dBV (0dB=2V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 35mW', 'Maximum 700mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '251.182',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '42%',
+						statNumber: '853.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '724.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '34%',
+						statNumber: '423.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '53.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '75.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '63.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '63%',
+						statNumber: '862.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '52%',
+						statNumber: '763.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '972.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '732.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Apple AirPods 3',
+		image: 'bg-AirPods',
+		sensibility: '90 Db',
+		resistance: '32 Ohm',
+		weight: '37 G',
+		price: '4 399',
+		discount: '4 000',
+		id: '26',
+		count: '5',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Blouetoth, 42mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
+
+			{
+				name: 'Sensitivity',
+				data: ['-4 dBV (0dB=1V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 25mW', 'Maximum 800mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '251.182',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '42%',
+						statNumber: '853.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '724.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '34%',
+						statNumber: '423.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '53.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '75.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '63.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '63%',
+						statNumber: '862.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '52%',
+						statNumber: '763.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '972.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '732.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'JBL T500BT',
+		image: 'bg-JBL',
+		sensibility: '92 Db',
+		resistance: '32 Ohm',
+		weight: '155 G',
+		price: '4 399',
+
+		id: '27',
+		count: '2',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 53mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
+
+			{
+				name: 'Sensitivity',
+				data: ['-60 dBV (0dB=2V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 35mW', 'Maximum 700mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '641.182',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '25%',
+						statNumber: '752.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '75%',
+						statNumber: '641.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '52%',
+						statNumber: '641.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '92%',
+						statNumber: '4.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '75%',
+						statNumber: '32.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '86%',
+						statNumber: '53.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '56%',
+						statNumber: '86.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '512.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '52%',
+						statNumber: '742.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '334.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '75%',
+						statNumber: '234.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Xiaomi Dots',
+		image: 'bg-XiaomiDots',
+		sensibility: '95 Db',
+		resistance: '60 Ohm',
+		weight: '18 G',
+		price: '2 100',
+		id: '28',
+		count: '8',
+		model: 'HyperX.glb',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 50mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['18Hz-23,000Hz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Headset - 3.5mm plug (4 pole) ',
+					'extension cable - 3.5mm stereo and mic plugs',
+				],
+			},
+			{
+				name: 'Frequency response',
+				data: [' 50Hz~18,000Hz'],
+			},
+			{
+				name: 'Sensitivity',
+				data: ['-40 dBV (0dB=1V/Pa,1kHz)', 'High Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 30mW', 'Maximum 500mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.182',
+					},
+					{
+						statName: 'This HeadPhone',
+						percents: '53%',
+						statNumber: '641.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '74%',
+						statNumber: '421.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '612.654',
+					},
+				],
+			},
+			{
+				name: 'Display Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '64%',
+						statNumber: '5.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '52.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '53%',
+						statNumber: '63.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '23%',
+						statNumber: '52.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '521%',
+						statNumber: '63.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '22%',
+						statNumber: '521.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '65%',
+						statNumber: '631.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Samsung P900',
+		image: 'bg-SamsungBlack',
+		sensibility: '95 Db',
+		resistance: '55 Ohm',
+		weight: '215 G',
+		price: '3200',
+		id: '29',
+		count: '6',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Blouetoth, 42mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
+
+			{
+				name: 'Sensitivity',
+				data: ['-4 dBV (0dB=1V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 25mW', 'Maximum 800mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '251.182',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '42%',
+						statNumber: '853.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '724.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '34%',
+						statNumber: '423.654',
+					},
+				],
+			},
+			{
+				name: 'Display Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '53.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '75.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '63.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '63%',
+						statNumber: '862.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '52%',
+						statNumber: '763.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '972.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '732.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'JBL Live Pro',
+		image: 'bg-JBLLIVE',
+		sensibility: '94 Db',
+		resistance: '45 Ohm',
+		weight: '15 G',
+		price: '2500',
+		id: '30',
+		count: '5',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 50mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['18Hz-23,000Hz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Headset - 3.5mm plug (4 pole) ',
+					'extension cable - 3.5mm stereo and mic plugs',
+				],
+			},
+			{
+				name: 'Frequency response',
+				data: [' 50Hz~18,000Hz'],
+			},
+			{
+				name: 'Sensitivity',
+				data: ['-40 dBV (0dB=1V/Pa,1kHz)', 'High Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 30mW', 'Maximum 500mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.182',
+					},
+					{
+						statName: 'This HeadPhone',
+						percents: '53%',
+						statNumber: '641.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '74%',
+						statNumber: '421.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '612.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '64%',
+						statNumber: '5.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '52.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '53%',
+						statNumber: '63.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '23%',
+						statNumber: '52.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '521%',
+						statNumber: '63.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '22%',
+						statNumber: '521.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '65%',
+						statNumber: '631.924',
+					},
+				],
+			},
+		],
+	},
+];
+
+export const MostBought = [
+	{
+		name: 'JBL Live Pro',
+		image: 'bg-JBLLIVE',
+		sensibility: '94 Db',
+		resistance: '45 Ohm',
+		weight: '15 G',
+		price: '2500',
+		id: '30',
+		count: '5',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Dynamic, 50mm with neodymium magnets'],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['18Hz-23,000Hz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Headset - 3.5mm plug (4 pole) ',
+					'extension cable - 3.5mm stereo and mic plugs',
+				],
+			},
+			{
+				name: 'Frequency response',
+				data: [' 50Hz~18,000Hz'],
+			},
+			{
+				name: 'Sensitivity',
+				data: ['-40 dBV (0dB=1V/Pa,1kHz)', 'High Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 30mW', 'Maximum 500mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.182',
+					},
+					{
+						statName: 'This HeadPhone',
+						percents: '53%',
+						statNumber: '641.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '74%',
+						statNumber: '421.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '612.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '64%',
+						statNumber: '5.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '52.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '53%',
+						statNumber: '63.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '23%',
+						statNumber: '52.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '42%',
+						statNumber: '521.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '521%',
+						statNumber: '63.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '22%',
+						statNumber: '521.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '65%',
+						statNumber: '631.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Samsung P10',
+		image: 'bg-SamsungP10',
+		display: '3840 x 2160',
+		price: '23 999',
+		ghz: '90 GHz',
+		diagonal: '72',
+		id: '18',
+		count: '6',
+		stats: [
+			{
+				name: 'Year',
+				data: ['2018'],
+			},
+
+			{
+				name: 'Dimensions and Weight',
+				data: [
+					'42 1/8 inch / 1067 mm',
+					'65" (64.5")',
+					'163.9 cm',
+					'570ppi',
+					'HDR 10 compliant (no Dolby Vision)',
+				],
+			},
+			{
+				name: 'Connectivity',
+				data: [
+					'HDCP 2.3 (for HDMI™ 1/2/3/4)',
+					'FAT16/FAT32/exFAT/NTFS',
+					'1 (Bottom Hybrid with Component)',
+					'1 (rear/hybrid with headphone and subwoofer out)',
+				],
+			},
+			{
+				name: 'Picture (Panel)',
+				data: ['3840 x 2160', 'LCD', 'OIS; multi-shot image stacking'],
+			},
+			{
+				name: 'Picture (processing)',
+				data: ['Live Color™ Technology', 'Dynamic Contrast Enhancer'],
+			},
+			{
+				name: 'Sound (Speakers and Amplifier)',
+				data: ['Bass Reflex Speaker'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '65%',
+						statNumber: '641.182',
+					},
+					{
+						statName: 'This TV',
+						percents: '25%',
+						statNumber: '752.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '75%',
+						statNumber: '641.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '52%',
+						statNumber: '641.654',
+					},
+				],
+			},
+			{
+				name: 'Display Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '92%',
+						statNumber: '4.0',
+					},
+					{
+						statName: 'This TV',
+						percents: '75%',
+						statNumber: '32.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '86%',
+						statNumber: '53.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '56%',
+						statNumber: '86.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '512.944',
+					},
+					{
+						statName: 'This TV',
+						percents: '52%',
+						statNumber: '742.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '334.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '75%',
+						statNumber: '234.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Iphone X',
+		image: 'bg-IphoneX',
+		display: '1125x2436 px',
+		camera: 'Main 12 mp',
+		ram: '3GB RAM',
+		discount: '9 000',
+		battery: '2176 mAh',
+		price: '9 499',
+		count: '8',
+		model: 'IphoneX.glb',
+		id: '5',
+
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '256GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'Retina IPS LCD, 625 nits (typ)',
+					'4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)	',
+					'1750 x 1334 pixels, 16:9 ratio (~326 ppi density)',
+					'Ion-strengthened glass, oleophobic coating',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Apple A11 Bionic SoC',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					'4GB of RAM',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'16MP camera with F/1.8 lens',
+					'optical image stabilization',
+					' quad-LED flash with slow sync',
+					'phase detection auto focus',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [' 2160p@60/30fps', '1080p@30/60/120/240fps video recording'],
+			},
+			{
+				name: 'Battery',
+				data: [' 1,821mAh battery, wireless charging (Qi compatible)'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '98%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Phone',
+						percents: '52%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '20%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '70%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '52%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '86%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '98%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '23%',
+						statNumber: '76.0',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Samsung S21',
+		image: 'bg-SamsungS21Ultra',
+		display: '1080x2400 px',
+		ram: '8GB RAM',
+		camera: 'Main 64 mp',
+		battery: '4000 mAh',
+		discount: '16 000',
+		price: '18 999',
+		count: '5',
+		model: 'SamsungS21.glb',
+		id: '8',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['128GB', '512GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					'Super AMOLED, 2,960x1440px resolution',
+					'4.7 inches, 60.9 cm2 (~65.4% screen-to-body ratio)	',
+					'1750 x 1334 pixels, 16:9 ratio (~326 ppi density)',
+					'Ion-strengthened glass, oleophobic coating',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm Snapdragon 865',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					'4GB of RAM',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					'48MP camera with F/1.8 lens',
+					'optical image stabilization',
+					' quad-LED flash with slow sync',
+					'phase detection auto focus',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [' 2160p@60/60fps', '1080p@30/60/120/240fps video recording'],
+			},
+			{
+				name: 'Battery',
+				data: [' 4,025mAh battery, wireless charging (Qi compatible)'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '905.132',
+					},
+					{
+						statName: 'This Phone',
+						percents: '87%',
+						statNumber: '524.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '40%',
+						statNumber: '532.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '90%',
+						statNumber: '268.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '75%',
+						statNumber: '7.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '98%',
+						statNumber: '87.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '87%',
+						statNumber: '76.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '19%',
+						statNumber: '76.0',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Samsung S8',
+		image: 'bg-SamsungS8',
+		display: '1440x2960 px',
+		camera: 'Main 12 mp',
+		ram: '4GB RAM',
+		battery: '3000 mAh',
+		price: '15 399',
+		id: '9',
+		model: 'SamsungS8.glb',
+		count: '5',
+		stats: [
+			{
+				name: 'Capacity',
+				data: ['64GB', '128GB'],
+			},
+
+			{
+				name: 'Display',
+				data: [
+					' 6.67" AMOLED',
+					'HDR10, 120Hz, 450-700 nits (typ)',
+					'1080x2400px resolution,',
+					'20:9 aspect ratio',
+					'True Tone display',
+				],
+			},
+			{
+				name: 'Chip',
+				data: [
+					'Qualcomm SM7150-AC Snapdragon 732G (8 nm)',
+					'Hexa-core (2 Monsoon + 4 Mistral) 2.09GHz Apple CPU',
+					'tri-core Apple GPU',
+					' Adreno 618',
+				],
+			},
+			{
+				name: 'Camera',
+				data: [
+					' Wide (main): 108 MP, f/1.8, 25mm, 1/1.52",',
+					'0.7µm, PDAF',
+					'Ultrawide angle: 8 MP',
+					' f/2.2, 118˚, 1/4.0", 1.12µm',
+				],
+			},
+			{
+				name: 'Video Recording',
+				data: [
+					'4K@30fps, 1080p@30/60fps',
+					'gyro-EIS; Front camera: 1080p@30fps, gyro-EIS',
+				],
+			},
+			{
+				name: 'Battery',
+				data: ['5,020mAh; Fast charging 33W.'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall Performance',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '53%',
+						statNumber: '765.182',
+					},
+					{
+						statName: 'This Phone',
+						percents: '67%',
+						statNumber: '627.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '72%',
+						statNumber: '242.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '21%',
+						statNumber: '764.654',
+					},
+				],
+			},
+			{
+				name: 'Bootup Time',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '76%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Phone',
+						percents: '72%',
+						statNumber: '64.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '21%',
+						statNumber: '87.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '5%',
+						statNumber: '76.0',
+					},
+				],
+			},
+			{
+				name: 'CPU',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '123.944',
+					},
+					{
+						statName: 'This Phone',
+						percents: '76%',
+						statNumber: '812.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '79%',
+						statNumber: '761.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '30%',
+						statNumber: '761.924',
+					},
+				],
+			},
+		],
+	},
+	{
+		name: 'Sven AP',
+		image: 'bg-SvenAP',
+		sensibility: '108 Db',
+		resistance: '32 Ohm',
+		weight: '300 G',
+		price: '469',
+
+		id: '24',
+		count: '9',
+		stats: [
+			{
+				name: 'Driver',
+				data: ['Cable , 53mm '],
+			},
+
+			{
+				name: 'Frequency response:	',
+				data: ['15Hz–20kHz'],
+			},
+			{
+				name: 'Connection',
+				data: [
+					'Electret condenser microphone',
+					'Bi-directional, Noise-cancelling',
+				],
+			},
+
+			{
+				name: 'Sensitivity',
+				data: ['-60 dBV (0dB=2V/Pa,1kHz)', 'Low Contrast'],
+			},
+			{
+				name: 'Input power',
+				data: ['Rated 35mW', 'Maximum 700mW'],
+			},
+		],
+		antutuStats: [
+			{
+				name: 'Overall ',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '86%',
+						statNumber: '251.182',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '42%',
+						statNumber: '853.659',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '724.764',
+					},
+					{
+						statName: 'Worst',
+						percents: '34%',
+						statNumber: '423.654',
+					},
+				],
+			},
+			{
+				name: 'Bass Stats',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '87%',
+						statNumber: '3.0',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '53%',
+						statNumber: '53.0',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '64%',
+						statNumber: '75.8',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '63.0',
+					},
+				],
+			},
+			{
+				name: 'Sound',
+				data: [
+					{
+						statName: 'GroupBest',
+						percents: '63%',
+						statNumber: '862.944',
+					},
+					{
+						statName: 'This Headphone',
+						percents: '52%',
+						statNumber: '763.099',
+					},
+					{
+						statName: 'Group* Avg',
+						percents: '42%',
+						statNumber: '972.158',
+					},
+					{
+						statName: 'Worst',
+						percents: '32%',
+						statNumber: '732.924',
+					},
+				],
+			},
+		],
+	},
+];

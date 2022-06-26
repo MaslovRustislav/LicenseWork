@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+import { headPhoneData } from '../../assets/mockData';
 import { phoneData } from '../../assets/mockData';
 import PhoneCard from '../Landing/PhoneCard';
+import HeadPhoneCard from './HeadPhones';
+
+import TvCard from '../Landing/TV';
+import { TvData } from '../../assets/mockData';
 
 const Landing = () => {
+	const [curDeviceData, setCurDeviceData] = useState([]);
 
+	useEffect(() => {
+		TvData.map((element) => {
+			setCurDeviceData((element) => [...element, element]);
+		});
+	}, [TvData]);
+	console.log('elemtns', curDeviceData);
 	return (
 		<div>
 			<div className=''>
@@ -19,7 +32,7 @@ const Landing = () => {
 					The most purchased products
 					<div className=' w-full overflow-x-scroll	 whitespace-nowrap	 flex '>
 						{phoneData.map((element, index) => {
-							if (index < 4) {
+							if (index < 5) {
 								return (
 									<PhoneCard
 										name={element.name}
@@ -36,13 +49,31 @@ const Landing = () => {
 								);
 							}
 						})}
+						{TvData.map((element, index) => {
+							if (index < 5) {
+								return (
+									<TvCard
+										name={element.name}
+										image={element.image}
+										display={element.display}
+										ghz={element.ghz}
+										diagonal={element.diagonal}
+										count={element.count}
+										price={element.price}
+										discount={element.discount}
+										id={element.id}
+										fromLading={true}
+									/>
+								);
+							}
+						})}
 					</div>
 				</div>
 			</div>
 			<div>
 				<div className='font-Rampart  font-bold ml-5 text-left my-5 text-2xl text-rose-600'>
 					Our Offers
-					<div className=' w-full   flex '>
+					<div className='  w-full overflow-x-scroll	 whitespace-nowrap	   flex '>
 						{phoneData.map((element, index) => {
 							if (element.discount) {
 								return (
@@ -56,6 +87,43 @@ const Landing = () => {
 										price={element.price}
 										discount={element.discount}
 										id={element.id}
+										fromLading={true}
+									/>
+								);
+							}
+						})}
+						{TvData.map((element, index) => {
+							if (element.discount) {
+								return (
+									<TvCard
+										name={element.name}
+										image={element.image}
+										display={element.display}
+										ghz={element.ghz}
+										diagonal={element.diagonal}
+										count={element.count}
+										price={element.price}
+										discount={element.discount}
+										id={element.id}
+										fromLading={true}
+									/>
+								);
+							}
+						})}
+						{headPhoneData.map((element, index) => {
+							if (element.discount) {
+								return (
+									<HeadPhoneCard
+										name={element.name}
+										image={element.image}
+										sensibility={element.sensibility}
+										resistance={element.resistance}
+										weight={element.weight}
+										count={element.count}
+										price={element.price}
+										discount={element.discount}
+										id={element.id}
+										fromLading={true}
 									/>
 								);
 							}

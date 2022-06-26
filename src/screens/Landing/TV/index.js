@@ -14,10 +14,10 @@ const TvCard = ({
 	id,
 	fromLading,
 }) => {
-	console.log('id',image)
+	console.log(' in tv cards');
 	return (
 		<Link
-			to={`TvPage/${id}`}
+			to={`/${id}`}
 			className={`border-black transition-all ${
 				discount
 					? 'hover:border-green-500 hover:shadow-green-600'
