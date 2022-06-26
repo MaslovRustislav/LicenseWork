@@ -32,19 +32,14 @@ function Nav() {
 					  TV's
                   </Link>
 
-                  <a
-                    href="#"
+                  <Link
+                   to={'/HeadPhone'}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Headphones
-                  </a>
+                  </Link>
 
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Cases
-                  </a>
+                
 				  </div>
 				  <div className="  pr-5 ">
 				  <Link
@@ -130,26 +125,21 @@ function Nav() {
                     Phones
                   </Link> 
 
-                  <a
-                    href="#"
+                  <Link
+                   to={'/TV'}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
 					  TV's
-                  </a>
+                  </Link>
 
-                  <a
-                    href="#"
+                  <Link
+                   to={'/HeadPhone'}
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Headphones
-                  </a>
+                  </Link>
 
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Cases
-                  </a>
+                 
 				  </div>
 				  <div className="  pr-5 ">
 				  <Link

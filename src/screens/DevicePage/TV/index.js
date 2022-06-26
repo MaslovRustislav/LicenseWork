@@ -18,6 +18,7 @@ const TvPage = () => {
 			}
 		});
 	});
+	console.log('tv page',curDeviceData)
 	// if (curDeviceData.stats)
 	return (
 		<div className='w-11/12 flex-col mx-auto flex justify-center items-center h-1/2 flex-grow min-h-screen'>
@@ -41,8 +42,8 @@ const TvPage = () => {
 			<div className=' w-full'>
 				<div
 					id='containerForModelling'
-					className=' h-600 mt-8 border-2 overflow-hidden '>
-					<DeviceViewer model={curDeviceData.model} />
+					className={`${!curDeviceData.model?curDeviceData.image :null} bg-contain bg-center bg-no-repeat  h-600 mt-8 border-2 overflow-hidden `}>
+					{curDeviceData.model?<DeviceViewer model={curDeviceData.model} />:null}
 				</div>
 				<div className='flex-col flex md:flex-row  mb-5 '>
 					<div className=' mt-8 md:ml-5 w-full border-3 mx-auto order-1'>
@@ -86,7 +87,7 @@ const TvPage = () => {
 																	width: `${elementForData.percents}`,
 																}}
 																className={` ${
-																	index !== 2 ? 'bg-gray-500' : 'bg-orange-700'
+																	index !== 2 ? 'bg-blue-500' : 'bg-green-700'
 																} h-full   `}></div>
 														</div>
 													</div>
