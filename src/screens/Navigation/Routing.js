@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Landing from '../Landing/index';
 import DevicePage from '../DevicePage/index';
 import DeviceContainer from '../DeviceContainer/index';
@@ -27,7 +27,10 @@ const Routing = () => {
 					<Route path='/TV' element={<TvContainer />} />
 					<Route path='TV/TvPage/:id' element={<TvPage />} />
 					<Route path='/HeadPhone' element={<HeadPhoneContainer />} />
-					<Route path='HeadPhone/HeadPhonePage/:id' element={<HeadPhonePage />} />
+					<Route
+						path='HeadPhone/HeadPhonePage/:id'
+						element={<HeadPhonePage />}
+					/>
 
 					{/* </ScrollToTop> */}
 				</Routes>
